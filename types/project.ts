@@ -6,6 +6,7 @@ export type Project = {
   status: string;
   technologies: string[];
   url: string;
+  caseStudyUrl?: string;
   desktopImage: string;
   mobileImage: string;
   imageAlt: string;

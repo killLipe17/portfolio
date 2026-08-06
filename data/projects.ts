@@ -17,6 +17,7 @@ export const projects: Project[] = [
       "Supabase",
     ],
     url: "https://guiart-web-nine.vercel.app/",
+    caseStudyUrl: "/projetos/guiart-games",
     desktopImage: "/projects/guiart-games/guiart-desktop.webp",
     mobileImage: "/projects/guiart-games/guiart-mobile.webp",
     imageAlt:

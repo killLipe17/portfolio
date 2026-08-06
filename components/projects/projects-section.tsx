@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { projects } from "@/data/projects";
 
@@ -89,12 +90,22 @@ export function ProjectsSection() {
                 ))}
               </div>
 
-              <div className="mt-auto pt-8">
+              <div className="mt-auto flex flex-col gap-3 pt-8 sm:flex-row sm:items-center">
+                {project.caseStudyUrl && (
+                  <Link
+                    href={project.caseStudyUrl}
+                    className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-black transition hover:bg-accent-strong focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+                  >
+                    Ver estudo de caso
+                    <span aria-hidden="true">→</span>
+                  </Link>
+                )}
+
                 <a
                   href={project.url}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 font-semibold text-foreground transition hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+                  className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-border bg-white/[0.02] px-5 py-2.5 text-sm font-semibold text-foreground transition hover:border-accent hover:bg-accent/[0.06] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
                 >
                   Visitar projeto
                   <span aria-hidden="true">↗</span>
