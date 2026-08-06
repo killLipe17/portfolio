@@ -109,15 +109,27 @@ export default function CelesteF7Page() {
             Voltar ao portfólio
           </Link>
 
-          <a
-            href="https://celeste-f7.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-accent/50 px-4 text-sm font-semibold text-accent transition hover:border-accent hover:bg-accent/[0.08] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
-          >
-            Visitar projeto
-            <span aria-hidden="true">↗</span>
-          </a>
+          <div className="flex items-center gap-2">
+            <a
+              href="https://github.com/killLipe17/celeste-f7"
+              target="_blank"
+              rel="noreferrer"
+              className="hidden min-h-10 items-center justify-center gap-2 rounded-md border border-border bg-white/[0.02] px-4 text-sm font-semibold text-foreground transition hover:border-accent hover:bg-accent/[0.06] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent sm:inline-flex"
+            >
+              GitHub
+              <span aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              href="https://celeste-f7.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-accent/50 px-4 text-sm font-semibold text-accent transition hover:border-accent hover:bg-accent/[0.08] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+            >
+              Visitar projeto
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </div>
       </header>
 
@@ -148,7 +160,7 @@ export default function CelesteF7Page() {
               patrocinadores, redes sociais e localização do time.
             </p>
 
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <a
                 href="https://celeste-f7.vercel.app/"
                 target="_blank"
@@ -156,6 +168,16 @@ export default function CelesteF7Page() {
                 className={`${buttonBase} bg-accent text-black hover:bg-accent-strong`}
               >
                 Acessar site publicado
+                <span aria-hidden="true">↗</span>
+              </a>
+
+              <a
+                href="https://github.com/killLipe17/celeste-f7"
+                target="_blank"
+                rel="noreferrer"
+                className={`${buttonBase} border border-border bg-white/[0.02] text-foreground hover:border-accent hover:bg-accent/[0.06]`}
+              >
+                Ver código no GitHub
                 <span aria-hidden="true">↗</span>
               </a>
 
@@ -502,7 +524,7 @@ export default function CelesteF7Page() {
                   for confirmado.
                 </p>
 
-                <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
+                <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row sm:flex-wrap">
                   <a
                     href="https://celeste-f7.vercel.app/"
                     target="_blank"
@@ -510,6 +532,16 @@ export default function CelesteF7Page() {
                     className={`${buttonBase} bg-accent text-black hover:bg-accent-strong`}
                   >
                     Visitar Celeste F7
+                    <span aria-hidden="true">↗</span>
+                  </a>
+
+                  <a
+                    href="https://github.com/killLipe17/celeste-f7"
+                    target="_blank"
+                    rel="noreferrer"
+                    className={`${buttonBase} border border-border bg-white/[0.02] text-foreground hover:border-accent hover:bg-accent/[0.06]`}
+                  >
+                    Ver código no GitHub
                     <span aria-hidden="true">↗</span>
                   </a>
 
