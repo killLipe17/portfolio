@@ -1,42 +1,6 @@
 import Image from "next/image";
 
-const projects = [
-  {
-    number: "01",
-    title: "Guiart Games e Colecionáveis",
-    category: "Site para loja e sistema administrativo",
-    description:
-      "Plataforma desenvolvida para apresentar produtos, organizar catálogo e estoque e facilitar pedidos pelo WhatsApp.",
-    status: "Versão 1.0 publicada",
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Prisma",
-      "PostgreSQL",
-      "Supabase",
-    ],
-    url: "https://guiart-web-nine.vercel.app/",
-    desktopImage: "/projects/guiart-games/guiart-desktop.webp",
-    mobileImage: "/projects/guiart-games/guiart-mobile.webp",
-    imageAlt:
-      "Página inicial da Guiart Games e Colecionáveis exibida em computador e celular",
-  },
-  {
-    number: "02",
-    title: "Celeste F7",
-    category: "Site institucional esportivo",
-    description:
-      "Site criado para apresentar a história do time, organizar informações sobre jogos, elenco, títulos, patrocinadores e localização.",
-    status: "Publicado — conteúdo em expansão",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-    url: "https://celeste-f7.vercel.app/",
-    desktopImage: "/projects/celeste-f7/celeste-f7-desktop.webp",
-    mobileImage: "/projects/celeste-f7/celeste-f7-mobile.webp",
-    imageAlt:
-      "Página inicial do Celeste F7 exibida em computador e celular",
-  },
-];
+import { projects } from "@/data/projects";
 
 const services = [
   {
@@ -135,12 +99,15 @@ export default function Home() {
             <a className="nav-link" href="#sobre">
               Sobre
             </a>
+
             <a className="nav-link" href="#projetos">
               Projetos
             </a>
+
             <a className="nav-link" href="#servicos">
               Serviços
             </a>
+
             <a className="nav-link" href="#habilidades">
               Habilidades
             </a>
@@ -248,6 +215,7 @@ export default function Home() {
                   <span className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
                     Perfil profissional
                   </span>
+
                   <span className="rounded-full border border-accent/30 bg-accent/[0.06] px-3 py-1 font-mono text-xs text-accent">
                     Online
                   </span>
@@ -285,13 +253,17 @@ export default function Home() {
                 <div className="mt-10 grid grid-cols-2 gap-3">
                   <div className="rounded-lg border border-border bg-background/60 p-5">
                     <strong className="block text-3xl tracking-tight">02</strong>
+
                     <span className="mt-1 block text-sm text-muted">
                       Projetos publicados
                     </span>
                   </div>
 
                   <div className="rounded-lg border border-border bg-background/60 p-5">
-                    <strong className="block text-3xl tracking-tight">15+</strong>
+                    <strong className="block text-3xl tracking-tight">
+                      15+
+                    </strong>
+
                     <span className="mt-1 block text-sm text-muted">
                       Tecnologias e habilidades
                     </span>
@@ -307,6 +279,7 @@ export default function Home() {
             <div className="section-heading">
               <div>
                 <p className="section-eyebrow">Projetos selecionados</p>
+
                 <h2 className="section-title">
                   Soluções criadas para necessidades reais.
                 </h2>
@@ -407,6 +380,7 @@ export default function Home() {
           <div className="section-container grid gap-14 lg:grid-cols-[0.75fr_1.25fr]">
             <div>
               <p className="section-eyebrow">Sobre mim</p>
+
               <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
                 Aprendizado aplicado em projetos de verdade.
               </h2>
@@ -439,6 +413,7 @@ export default function Home() {
             <div className="section-heading">
               <div>
                 <p className="section-eyebrow">Serviços</p>
+
                 <h2 className="section-title">
                   Como posso contribuir com seu projeto.
                 </h2>
@@ -462,7 +437,9 @@ export default function Home() {
 
                   <h3 className="text-xl font-semibold">{service.title}</h3>
 
-                  <p className="leading-7 text-muted">{service.description}</p>
+                  <p className="leading-7 text-muted">
+                    {service.description}
+                  </p>
                 </article>
               ))}
             </div>
@@ -476,6 +453,7 @@ export default function Home() {
           <div className="section-container grid gap-14 lg:grid-cols-[0.8fr_1.2fr]">
             <div>
               <p className="section-eyebrow">Conhecimentos</p>
+
               <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
                 Tecnologias utilizadas nos meus projetos.
               </h2>
@@ -509,6 +487,7 @@ export default function Home() {
                   <span className="font-mono text-xs text-accent">
                     0{index + 1}
                   </span>
+
                   <h3 className="mt-8 text-lg font-semibold">{step}</h3>
                 </div>
               ))}
