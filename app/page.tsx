@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const projects = [
   {
     number: "01",
@@ -15,6 +17,10 @@ const projects = [
       "Supabase",
     ],
     url: "https://guiart-web-nine.vercel.app/",
+    desktopImage: "/projects/guiart-games/guiart-desktop.webp",
+    mobileImage: "/projects/guiart-games/guiart-mobile.webp",
+    imageAlt:
+      "Página inicial da Guiart Games e Colecionáveis exibida em computador e celular",
   },
   {
     number: "02",
@@ -25,6 +31,10 @@ const projects = [
     status: "Publicado — conteúdo em expansão",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     url: "https://celeste-f7.vercel.app/",
+    desktopImage: "/projects/celeste-f7/celeste-f7-desktop.webp",
+    mobileImage: "/projects/celeste-f7/celeste-f7-mobile.webp",
+    imageAlt:
+      "Página inicial do Celeste F7 exibida em computador e celular",
   },
 ];
 
@@ -312,7 +322,7 @@ export default function Home() {
               {projects.map((project) => (
                 <article
                   key={project.title}
-                  className="group flex min-h-[520px] flex-col rounded-xl border border-border bg-surface p-6 transition duration-300 hover:-translate-y-1 hover:border-accent/50 sm:p-8"
+                  className="group flex min-h-[560px] flex-col rounded-xl border border-border bg-surface p-6 transition duration-300 hover:-translate-y-1 hover:border-accent/50 sm:p-8"
                 >
                   <div className="flex items-start justify-between gap-5">
                     <span className="font-mono text-sm text-accent">
@@ -324,15 +334,32 @@ export default function Home() {
                     </span>
                   </div>
 
-                  <div className="my-8 flex min-h-48 items-center justify-center overflow-hidden rounded-lg border border-border bg-background">
-                    <div className="relative flex size-full min-h-48 items-center justify-center">
+                  <div className="relative my-8">
+                    <div className="relative aspect-[1600/808] overflow-hidden rounded-lg border border-border bg-background shadow-xl shadow-black/30">
+                      <Image
+                        src={project.desktopImage}
+                        alt={project.imageAlt}
+                        fill
+                        sizes="(max-width: 1024px) 100vw, 50vw"
+                        className="object-cover object-top transition duration-500 group-hover:scale-[1.02]"
+                      />
+
                       <div
-                        className="absolute inset-0 opacity-60 project-grid"
+                        className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-white/[0.03]"
                         aria-hidden="true"
                       />
-                      <span className="relative font-mono text-5xl font-semibold text-white/[0.08] transition group-hover:text-accent/[0.12]">
-                        {project.number}
-                      </span>
+                    </div>
+
+                    <div className="absolute -bottom-5 right-4 hidden w-[15%] min-w-16 max-w-24 overflow-hidden rounded-[0.8rem] border border-white/15 bg-black p-1 shadow-2xl shadow-black sm:block">
+                      <div className="relative aspect-[820/1602] overflow-hidden rounded-[0.55rem] bg-background">
+                        <Image
+                          src={project.mobileImage}
+                          alt={`Versão para celular do projeto ${project.title}`}
+                          fill
+                          sizes="100px"
+                          className="object-cover object-top"
+                        />
+                      </div>
                     </div>
                   </div>
 
@@ -540,9 +567,7 @@ export default function Home() {
         <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-5 py-9 text-sm text-muted sm:px-8 md:flex-row md:items-center md:justify-between">
           <div>
             <strong className="text-foreground">Fellipe Leite</strong>
-            <p className="mt-1">
-              Desenvolvedor Web • São Paulo/SP
-            </p>
+            <p className="mt-1">Desenvolvedor Web • São Paulo/SP</p>
           </div>
 
           <div className="flex flex-wrap gap-5">
