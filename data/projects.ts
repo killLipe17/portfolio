@@ -32,6 +32,7 @@ export const projects: Project[] = [
     status: "Publicado — conteúdo em expansão",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     url: "https://celeste-f7.vercel.app/",
+    caseStudyUrl: "/projetos/celeste-f7",
     desktopImage: "/projects/celeste-f7/celeste-f7-desktop.webp",
     mobileImage: "/projects/celeste-f7/celeste-f7-mobile.webp",
     imageAlt:
