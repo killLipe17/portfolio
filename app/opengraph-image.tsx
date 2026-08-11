@@ -372,7 +372,7 @@ export default function OpenGraphImage() {
                       color: "#f4f5f5",
                     }}
                   >
-                    02
+                    03
                   </span>
 
                   <span

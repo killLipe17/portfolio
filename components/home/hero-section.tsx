@@ -151,7 +151,7 @@ export function HeroSection() {
             <div className="mt-10 grid grid-cols-2 gap-3">
               <div className="rounded-lg border border-border bg-background/60 p-5">
                 <strong className="block text-3xl tracking-tight">
-                  02
+                  03
                 </strong>
 
                 <span className="mt-1 block text-sm text-muted">
