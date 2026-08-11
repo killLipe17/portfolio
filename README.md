@@ -1,36 +1,170 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LIPEXP Studio — Portfólio
 
-## Getting Started
+> **Level up your business.**
+> Sites modernos para negócios reais.
 
-First, run the development server:
+Portfólio profissional de **Fellipe Santos Leite**, desenvolvedor web e criador da **LIPEXP Studio**.
+
+O projeto reúne trabalhos reais publicados, estudos de caso, serviços oferecidos e informações profissionais, com foco tanto em oportunidades de desenvolvimento web quanto em projetos freelance.
+
+## 🌐 Portfólio
+
+**Site:**
+https://portfolio-seven-coral-t58e5zn2u9.vercel.app/
+
+## 🚀 Projetos em destaque
+
+### 01 — KILL LIPE
+
+Site institucional e media kit desenvolvido para um canal de games, com integração à API do YouTube, métricas atualizadas e estrutura multilíngue.
+
+**Destaques:**
+
+* Métricas em tempo real
+* Conteúdo em PT, EN e ES
+* Integração com YouTube Data API
+* Formulário de contato profissional
+* Integração com Resend
+
+**Tecnologias:** Next.js, TypeScript, Tailwind CSS, YouTube API, Resend e Vercel.
+
+**Projeto:**
+https://kill-lipe.vercel.app/
+
+---
+
+### 02 — Guiart Games e Colecionáveis
+
+Plataforma desenvolvida para uma loja de games e colecionáveis, com catálogo de produtos, gerenciamento de estoque e fluxo de pedidos.
+
+**Destaques:**
+
+* Catálogo de produtos
+* Controle de estoque
+* Painel administrativo
+* Pedidos via WhatsApp
+* Banco de dados integrado
+
+**Tecnologias:** Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL e Supabase.
+
+**Projeto:**
+https://guiart-web-nine.vercel.app/
+
+---
+
+### 03 — Celeste F7
+
+Site institucional desenvolvido para um time de Futebol 7, reunindo informações esportivas e institucionais em uma experiência responsiva.
+
+**Destaques:**
+
+* Jogos e resultados
+* Elenco
+* História do clube
+* Patrocinadores
+* Localização
+* Design responsivo
+
+**Tecnologias:** Next.js, TypeScript, Tailwind CSS e Vercel.
+
+**Projeto:**
+https://celeste-f7.vercel.app/
+
+## 🛠️ Tecnologias e habilidades
+
+* HTML
+* CSS
+* JavaScript
+* TypeScript
+* React
+* Next.js
+* Tailwind CSS
+* Prisma
+* PostgreSQL
+* Supabase
+* Git
+* GitHub
+* Vercel
+* Integração com APIs
+* Design responsivo
+
+## ✨ Funcionalidades do portfólio
+
+* Identidade visual LIPEXP Studio
+* Layout responsivo
+* Projetos publicados
+* Estudos de caso individuais
+* Seção de serviços
+* Skills e tecnologias
+* Processo de desenvolvimento
+* Área de contato
+* Currículo profissional
+* SEO
+* Open Graph
+* Sitemap
+* Robots.txt
+
+## 💻 Executando localmente
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/killLipe17/portfolio.git
+```
+
+Entre no diretório:
+
+```bash
+cd portfolio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o ambiente de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Build de produção
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Sobre a LIPEXP Studio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A **LIPEXP Studio** cria sites modernos para negócios reais, combinando desenvolvimento, identidade visual, responsividade e foco na experiência do usuário.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Serviços
 
-## Deploy on Vercel
+* Sites institucionais
+* Sites para lojas
+* Landing pages
+* Portfólios profissionais
+* Manutenção de sites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Desenvolvedor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Fellipe Santos Leite**
+Desenvolvedor Web
+São Paulo — SP, Brasil
+
+* GitHub: https://github.com/killLipe17
+* LinkedIn: https://www.linkedin.com/in/fellipe-leite-4412a3377/
+* YouTube: https://www.youtube.com/@killlipe_
+
+---
+
+**LIPEXP Studio**
+*Level up your business.*
