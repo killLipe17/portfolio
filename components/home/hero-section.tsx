@@ -74,15 +74,24 @@ export function HeroSection() {
           </a>
 
           <a
-            className="social-link"
-            href="https://www.linkedin.com/in/fellipe-leite-4412a3377/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn <span aria-hidden="true">↗</span>
-          </a>
+  className="social-link"
+  href="https://www.linkedin.com/in/fellipe-leite-4412a3377/"
+  target="_blank"
+  rel="noreferrer"
+>
+  LinkedIn <span aria-hidden="true">↗</span>
+</a>
 
-          <span>São Paulo/SP</span>
+<a
+  className="social-link"
+  href="/curriculo-fellipe-leite.pdf"
+  target="_blank"
+  rel="noreferrer"
+>
+  Currículo <span aria-hidden="true">↓</span>
+</a>
+
+<span>São Paulo/SP</span>
         </div>
       </div>
 
