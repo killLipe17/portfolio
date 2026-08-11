@@ -1,39 +1,39 @@
 const services = [
   {
     number: "01",
-    title: "Landing Pages",
+    title: "Sites institucionais",
     description:
-      "Páginas estratégicas para apresentar produtos, serviços, campanhas e transformar visitantes em oportunidades.",
+      "Sites profissionais para empresas, marcas e negócios apresentarem seus serviços, diferenciais e canais de contato com uma presença digital moderna.",
   },
   {
     number: "02",
-    title: "Sites institucionais",
+    title: "Sites para lojas",
     description:
-      "Sites profissionais para apresentar empresas, serviços, projetos e fortalecer sua presença digital.",
+      "Catálogos digitais e soluções para apresentar produtos, organizar informações e criar caminhos simples para pedidos e vendas.",
   },
   {
     number: "03",
-    title: "Sites para lojas",
+    title: "Landing Pages",
     description:
-      "Catálogos digitais e experiências de compra desenvolvidas de acordo com as necessidades do negócio.",
+      "Páginas focadas em campanhas, produtos ou serviços, com estrutura objetiva e chamadas para ação que direcionam o visitante ao próximo passo.",
   },
   {
     number: "04",
     title: "Portfólios profissionais",
     description:
-      "Sites personalizados para profissionais, criadores e marcas apresentarem seus trabalhos de forma organizada.",
+      "Sites personalizados para profissionais, criadores e marcas apresentarem projetos, experiências e trabalhos de forma clara e profissional.",
   },
   {
     number: "05",
-    title: "Manutenção e ajustes",
+    title: "Integrações e funcionalidades",
     description:
-      "Atualizações de conteúdo, melhorias visuais, correções e evolução de projetos já publicados.",
+      "Integração com APIs, formulários, bancos de dados e recursos personalizados para transformar um site em uma solução mais completa.",
   },
   {
     number: "06",
-    title: "Design responsivo",
+    title: "Manutenção e evolução",
     description:
-      "Interfaces planejadas para funcionar bem em computadores, tablets e dispositivos móveis.",
+      "Correções, atualizações de conteúdo, melhorias visuais, novas funcionalidades e evolução de sites que já estão publicados.",
   },
 ];
 
@@ -46,13 +46,13 @@ export function ServicesSection() {
             <p className="section-eyebrow">Serviços</p>
 
             <h2 className="section-title">
-              O que podemos criar para você.
+              Da ideia ao site publicado.
             </h2>
           </div>
 
           <p className="section-description">
-            Soluções digitais desenvolvidas de acordo com o objetivo de cada
-            negócio, profissional ou projeto.
+            A LIPEXP desenvolve soluções digitais para negócios, profissionais
+            e projetos que precisam criar ou evoluir sua presença na internet.
           </p>
         </div>
 
