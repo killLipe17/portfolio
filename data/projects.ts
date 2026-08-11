@@ -8,6 +8,11 @@ export const projects: Project[] = [
     description:
       "Site institucional criado para apresentar o canal, destacar conteúdos e coberturas, exibir métricas atualizadas e facilitar contatos profissionais com empresas do setor de games.",
     status: "Publicado",
+    highlights: [
+  "Métricas em tempo real",
+  "PT • EN • ES",
+  "Contato profissional integrado",
+],
     technologies: [
       "Next.js",
       "TypeScript",
@@ -30,6 +35,11 @@ export const projects: Project[] = [
     description:
       "Plataforma desenvolvida para apresentar produtos, organizar catálogo e estoque e facilitar pedidos pelo WhatsApp.",
     status: "Publicado",
+    highlights: [
+  "Catálogo e estoque",
+  "Painel administrativo",
+  "Pedidos via WhatsApp",
+],
     technologies: [
       "Next.js",
       "TypeScript",
@@ -52,6 +62,11 @@ export const projects: Project[] = [
     description:
       "Site criado para apresentar a história do time, organizar informações sobre jogos, elenco, títulos, patrocinadores e localização.",
     status: "Publicado",
+    highlights: [
+  "Jogos e resultados",
+  "Elenco e patrocinadores",
+  "Experiência responsiva",
+],
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     url: "https://celeste-f7.vercel.app/",
     caseStudyUrl: "/projetos/celeste-f7",

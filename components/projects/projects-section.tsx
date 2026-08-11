@@ -87,6 +87,24 @@ export function ProjectsSection() {
                   {project.description}
                 </p>
 
+<div className="mt-6 grid gap-2 sm:grid-cols-3">
+  {project.highlights.map((highlight) => (
+    <div
+      key={highlight}
+      className="flex min-h-14 items-center gap-2 rounded-lg border border-accent/15 bg-accent/[0.03] px-3 py-2.5 text-sm leading-5 text-foreground"
+    >
+      <span
+        className="font-mono text-accent"
+        aria-hidden="true"
+      >
+        +
+      </span>
+
+      <span>{highlight}</span>
+    </div>
+  ))}
+</div>
+
                 <div className="mt-6 flex flex-wrap gap-2">
                   {project.technologies.map((technology) => (
                     <span
