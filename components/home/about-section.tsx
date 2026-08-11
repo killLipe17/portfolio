@@ -6,35 +6,64 @@ export function AboutSection() {
           <p className="section-eyebrow">Por trás da LIPEXP</p>
 
           <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
-            Tecnologia, criatividade e projetos que resolvem problemas.
+            Desenvolvimento web com visão de produto e identidade.
           </h2>
         </div>
 
         <div className="space-y-6 text-lg leading-8 text-muted">
           <p>
             Sou Fellipe Santos Leite, desenvolvedor web formado em Análise e
-            Desenvolvimento de Sistemas pela UNINOVE e responsável pela
-            LIPEXP Studio.
+            Desenvolvimento de Sistemas pela UNINOVE e criador da LIPEXP
+            Studio.
           </p>
 
           <p>
-            Tecnologia e games sempre fizeram parte dos meus interesses, e foi
-            no desenvolvimento web que encontrei uma forma de transformar
-            ideias em experiências digitais úteis, modernas e bem organizadas.
+            Desenvolvo sites para negócios, profissionais e projetos que
+            precisam transformar uma ideia em uma presença digital moderna,
+            funcional e bem apresentada.
           </p>
 
           <p>
-            Na LIPEXP, cuido dos projetos desde o planejamento e identidade
-            visual até o desenvolvimento, testes e publicação, buscando criar
-            soluções que façam sentido para cada negócio, profissional ou
-            projeto.
+            Na LIPEXP, acompanho cada projeto do planejamento à publicação,
+            passando por identidade visual, interface, desenvolvimento,
+            responsividade, integrações e testes. O objetivo é criar soluções
+            que sejam úteis para quem administra e simples para quem utiliza.
           </p>
 
           <p>
-            Ao mesmo tempo, continuo evoluindo tecnicamente por meio de
-            projetos reais e aberto a oportunidades profissionais na área de
-            desenvolvimento web.
+            Além dos projetos freelance, sigo ampliando minha experiência por
+            meio de projetos reais e estou aberto a oportunidades profissionais
+            em desenvolvimento web.
           </p>
+
+          <div className="grid gap-3 pt-4 sm:grid-cols-3">
+            <div className="rounded-xl border border-border bg-surface/40 p-4">
+              <span className="block font-mono text-xs uppercase tracking-[0.16em] text-accent">
+                Formação
+              </span>
+              <strong className="mt-2 block text-sm font-medium text-foreground">
+                ADS — UNINOVE
+              </strong>
+            </div>
+
+            <div className="rounded-xl border border-border bg-surface/40 p-4">
+              <span className="block font-mono text-xs uppercase tracking-[0.16em] text-accent">
+                Localização
+              </span>
+              <strong className="mt-2 block text-sm font-medium text-foreground">
+                São Paulo / SP
+              </strong>
+            </div>
+
+            <div className="rounded-xl border border-border bg-surface/40 p-4">
+              <span className="block font-mono text-xs uppercase tracking-[0.16em] text-accent">
+                Disponibilidade
+              </span>
+              <strong className="mt-2 block text-sm font-medium text-foreground">
+                Freelance + oportunidades
+              </strong>
+            </div>
+          </div>
         </div>
       </div>
     </section>
