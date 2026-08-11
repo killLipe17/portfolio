@@ -11,16 +11,34 @@ export function ProcessSection() {
   return (
     <section className="section-spacing border-t border-border">
       <div className="section-container">
-        <p className="section-eyebrow">Processo de trabalho</p>
+        <div className="section-heading">
+          <div>
+            <p className="section-eyebrow">Processo LIPEXP</p>
 
-        <div className="mt-10 grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
+            <h2 className="section-title">
+              Da ideia ao site publicado.
+            </h2>
+          </div>
+
+          <p className="section-description">
+            Um processo organizado para entender a necessidade, desenvolver a
+            solução e entregar o projeto pronto para uso.
+          </p>
+        </div>
+
+        <div className="mt-14 grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {processSteps.map((step, index) => (
-            <div key={step} className="bg-surface p-7">
+            <div
+              key={step}
+              className="group bg-surface p-7 transition hover:bg-surface-strong"
+            >
               <span className="font-mono text-xs text-accent">
                 0{index + 1}
               </span>
 
-              <h3 className="mt-8 text-lg font-semibold">{step}</h3>
+              <h3 className="mt-8 text-lg font-semibold transition group-hover:text-accent">
+                {step}
+              </h3>
             </div>
           ))}
         </div>

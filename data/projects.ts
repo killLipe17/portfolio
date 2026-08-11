@@ -7,7 +7,7 @@ export const projects: Project[] = [
     category: "Site para loja e sistema administrativo",
     description:
       "Plataforma desenvolvida para apresentar produtos, organizar catálogo e estoque e facilitar pedidos pelo WhatsApp.",
-    status: "Versão 1.0 publicada",
+    status: "Publicado",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     category: "Site institucional esportivo",
     description:
       "Site criado para apresentar a história do time, organizar informações sobre jogos, elenco, títulos, patrocinadores e localização.",
-    status: "Publicado — conteúdo em expansão",
+    status: "Publicado",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     url: "https://celeste-f7.vercel.app/",
     caseStudyUrl: "/projetos/celeste-f7",
@@ -37,5 +37,27 @@ export const projects: Project[] = [
     mobileImage: "/projects/celeste-f7/celeste-f7-mobile.webp",
     imageAlt:
       "Página inicial do Celeste F7 exibida em computador e celular",
+  },
+  {
+    number: "03",
+    title: "KILL LIPE",
+    category: "Site institucional / Media Kit para canal de games",
+    description:
+      "Site institucional criado para apresentar o canal, destacar conteúdos e coberturas, exibir métricas atualizadas e facilitar contatos profissionais com empresas do setor de games.",
+    status: "Publicado",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "YouTube API",
+      "Resend",
+      "Vercel",
+    ],
+    url: "https://kill-lipe.vercel.app/",
+    caseStudyUrl: "/projetos/kill-lipe",
+    desktopImage: "/projects/kill-lipe/kill-lipe-desktop.webp",
+    mobileImage: "/projects/kill-lipe/kill-lipe-mobile.webp",
+    imageAlt:
+      "Página inicial do site KILL LIPE exibida em computador e celular",
   },
 ];

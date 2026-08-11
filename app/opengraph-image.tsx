@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "Fellipe Leite — Desenvolvedor Web e criador de soluções digitais";
+  "LIPEXP Studio — Criação de sites e soluções digitais para negócios reais";
 
 export const size = {
   width: 1200,
@@ -22,21 +22,95 @@ export default function OpenGraphImage() {
           overflow: "hidden",
           background: "#090a0b",
           color: "#f4f5f5",
-          padding: "64px 72px",
+          padding: "56px 64px",
           fontFamily: "Arial, sans-serif",
         }}
       >
         <div
           style={{
             position: "absolute",
-            top: "-180px",
-            right: "-120px",
-            width: "520px",
-            height: "520px",
+            inset: 0,
             display: "flex",
+            background:
+              "linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(103,228,128,0.05) 100%)",
+          }}
+        />
+
+        <div
+          style={{
+            position: "absolute",
+            top: "-140px",
+            right: "-80px",
+            width: "420px",
+            height: "420px",
             borderRadius: "999px",
-            background: "#67e480",
-            opacity: 0.08,
+            background: "rgba(103, 228, 128, 0.08)",
+            display: "flex",
+          }}
+        />
+
+        <div
+          style={{
+            position: "absolute",
+            bottom: "-120px",
+            left: "-60px",
+            width: "320px",
+            height: "320px",
+            borderRadius: "999px",
+            background: "rgba(103, 228, 128, 0.05)",
+            display: "flex",
+          }}
+        />
+
+        <div
+          style={{
+            position: "absolute",
+            top: "34px",
+            left: "34px",
+            width: "22px",
+            height: "22px",
+            borderTop: "2px solid #67e480",
+            borderLeft: "2px solid #67e480",
+            opacity: 0.9,
+          }}
+        />
+
+        <div
+          style={{
+            position: "absolute",
+            top: "34px",
+            right: "34px",
+            width: "22px",
+            height: "22px",
+            borderTop: "2px solid #67e480",
+            borderRight: "2px solid #67e480",
+            opacity: 0.9,
+          }}
+        />
+
+        <div
+          style={{
+            position: "absolute",
+            bottom: "34px",
+            left: "34px",
+            width: "22px",
+            height: "22px",
+            borderBottom: "2px solid #67e480",
+            borderLeft: "2px solid #67e480",
+            opacity: 0.9,
+          }}
+        />
+
+        <div
+          style={{
+            position: "absolute",
+            bottom: "34px",
+            right: "34px",
+            width: "22px",
+            height: "22px",
+            borderBottom: "2px solid #67e480",
+            borderRight: "2px solid #67e480",
+            opacity: 0.9,
           }}
         />
 
@@ -46,8 +120,11 @@ export default function OpenGraphImage() {
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
+            position: "relative",
+            zIndex: 1,
           }}
         >
+          {/* TOPO */}
           <div
             style={{
               display: "flex",
@@ -70,14 +147,15 @@ export default function OpenGraphImage() {
                   alignItems: "center",
                   justifyContent: "center",
                   border: "2px solid #67e480",
-                  borderRadius: "12px",
+                  borderRadius: "16px",
                   background: "#121416",
                   color: "#67e480",
-                  fontSize: "24px",
+                  fontSize: "28px",
                   fontWeight: 700,
+                  letterSpacing: "-1px",
                 }}
               >
-                FL
+                LX
               </div>
 
               <div
@@ -88,11 +166,12 @@ export default function OpenGraphImage() {
               >
                 <span
                   style={{
-                    fontSize: "24px",
+                    fontSize: "26px",
                     fontWeight: 700,
+                    color: "#f4f5f5",
                   }}
                 >
-                  Fellipe Leite
+                  LIPEXP STUDIO
                 </span>
 
                 <span
@@ -102,7 +181,7 @@ export default function OpenGraphImage() {
                     fontSize: "16px",
                   }}
                 >
-                  Desenvolvedor Web
+                  Criação de Sites • por Fellipe Leite
                 </span>
               </div>
             </div>
@@ -111,25 +190,27 @@ export default function OpenGraphImage() {
               style={{
                 color: "#67e480",
                 fontSize: "16px",
-                letterSpacing: "3px",
+                letterSpacing: "2px",
                 textTransform: "uppercase",
               }}
             >
-              Portfólio
+              @lipexpstudio
             </span>
           </div>
 
+          {/* CONTEÚDO PRINCIPAL */}
           <div
             style={{
               display: "flex",
               alignItems: "flex-end",
               justifyContent: "space-between",
-              gap: "70px",
+              gap: "48px",
             }}
           >
+            {/* LADO ESQUERDO */}
             <div
               style={{
-                maxWidth: "690px",
+                maxWidth: "660px",
                 display: "flex",
                 flexDirection: "column",
               }}
@@ -143,54 +224,204 @@ export default function OpenGraphImage() {
                   textTransform: "uppercase",
                 }}
               >
-                Soluções digitais reais
+                Sites modernos para negócios reais
               </span>
 
               <span
                 style={{
                   marginTop: "24px",
-                  fontSize: "67px",
+                  fontSize: "72px",
                   fontWeight: 700,
-                  lineHeight: 1.04,
+                  lineHeight: 1.02,
                   letterSpacing: "-4px",
+                  color: "#f4f5f5",
                 }}
               >
-                Transformo ideias em sites modernos e funcionais.
+                Level up
+              </span>
+
+              <span
+                style={{
+                  fontSize: "72px",
+                  fontWeight: 700,
+                  lineHeight: 1.02,
+                  letterSpacing: "-4px",
+                  color: "#67e480",
+                }}
+              >
+                your business.
+              </span>
+
+              <span
+                style={{
+                  marginTop: "22px",
+                  maxWidth: "620px",
+                  fontSize: "26px",
+                  lineHeight: 1.45,
+                  color: "#c2c8ce",
+                }}
+              >
+                A LIPEXP Studio cria landing pages, sites institucionais,
+                portfólios e soluções digitais com foco em presença profissional
+                e resultado.
               </span>
             </div>
 
+            {/* CARD DIREITO */}
             <div
               style={{
-                width: "320px",
+                width: "340px",
                 display: "flex",
                 flexDirection: "column",
                 gap: "18px",
-                padding: "28px",
+                padding: "26px",
                 border: "1px solid #292d31",
-                borderRadius: "16px",
+                borderRadius: "18px",
                 background: "#121416",
-                fontFamily: "monospace",
-                fontSize: "17px",
               }}
             >
-              <span style={{ color: "#67e480" }}>
-                const desenvolvedor =
-              </span>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                }}
+              >
+                <span
+                  style={{
+                    color: "#67e480",
+                    fontSize: "15px",
+                    fontWeight: 700,
+                    letterSpacing: "2px",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  Perfil LIPEXP
+                </span>
 
-              <span style={{ color: "#d8f8de" }}>
-                &quot;Fellipe Leite&quot;;
-              </span>
+                <span
+                  style={{
+                    padding: "6px 12px",
+                    border: "1px solid rgba(103, 228, 128, 0.35)",
+                    borderRadius: "999px",
+                    color: "#67e480",
+                    fontSize: "13px",
+                  }}
+                >
+                  Online
+                </span>
+              </div>
 
-              <span style={{ color: "#67e480" }}>
-                const projetos =
-              </span>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "10px",
+                  fontFamily: "monospace",
+                  fontSize: "17px",
+                  lineHeight: 1.6,
+                }}
+              >
+                <span style={{ color: "#67e480" }}>
+                  const studio ={" "}
+                  <span style={{ color: "#d8f8de" }}>
+                    &quot;LIPEXP Studio&quot;
+                  </span>
+                  ;
+                </span>
 
-              <span style={{ color: "#d8f8de" }}>
-                &quot;Soluções úteis&quot;;
-              </span>
+                <span style={{ color: "#67e480" }}>
+                  const developer ={" "}
+                  <span style={{ color: "#d8f8de" }}>
+                    &quot;Fellipe Leite&quot;
+                  </span>
+                  ;
+                </span>
+
+                <span style={{ color: "#67e480" }}>
+                  const mission ={" "}
+                  <span style={{ color: "#d8f8de" }}>
+                    &quot;Criar soluções úteis&quot;
+                  </span>
+                  ;
+                </span>
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  gap: "14px",
+                  marginTop: "8px",
+                }}
+              >
+                <div
+                  style={{
+                    flex: 1,
+                    display: "flex",
+                    flexDirection: "column",
+                    padding: "18px",
+                    border: "1px solid #292d31",
+                    borderRadius: "14px",
+                    background: "#0e1012",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: "22px",
+                      fontWeight: 700,
+                      color: "#f4f5f5",
+                    }}
+                  >
+                    02
+                  </span>
+
+                  <span
+                    style={{
+                      marginTop: "6px",
+                      fontSize: "14px",
+                      color: "#a8afb5",
+                    }}
+                  >
+                    Projetos publicados
+                  </span>
+                </div>
+
+                <div
+                  style={{
+                    flex: 1,
+                    display: "flex",
+                    flexDirection: "column",
+                    padding: "18px",
+                    border: "1px solid #292d31",
+                    borderRadius: "14px",
+                    background: "#0e1012",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: "22px",
+                      fontWeight: 700,
+                      color: "#f4f5f5",
+                    }}
+                  >
+                    15+
+                  </span>
+
+                  <span
+                    style={{
+                      marginTop: "6px",
+                      fontSize: "14px",
+                      color: "#a8afb5",
+                    }}
+                  >
+                    Tecnologias e habilidades
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
 
+          {/* RODAPÉ */}
           <div
             style={{
               display: "flex",
@@ -202,7 +433,10 @@ export default function OpenGraphImage() {
               fontSize: "16px",
             }}
           >
-            <span>Next.js • TypeScript • Desenvolvimento responsivo</span>
+            <span>
+              Landing Pages • Sites institucionais • Portfólios
+            </span>
+
             <span>São Paulo/SP</span>
           </div>
         </div>

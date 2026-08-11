@@ -24,15 +24,16 @@ export function SkillsSection() {
     >
       <div className="section-container grid gap-14 lg:grid-cols-[0.8fr_1.2fr]">
         <div>
-          <p className="section-eyebrow">Conhecimentos</p>
+          <p className="section-eyebrow">Stack & tecnologia</p>
 
           <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
-            Tecnologias utilizadas nos meus projetos.
+            Tecnologias aplicadas nos projetos da LIPEXP.
           </h2>
 
           <p className="mt-6 max-w-xl leading-7 text-muted">
-            Apresento apenas tecnologias com as quais já trabalhei durante minha
-            formação e no desenvolvimento dos projetos publicados.
+            Ferramentas e tecnologias com as quais Fellipe já trabalhou na
+            formação e no desenvolvimento de projetos reais, da interface à
+            publicação.
           </p>
         </div>
 

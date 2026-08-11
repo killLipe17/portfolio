@@ -1,33 +1,39 @@
 const services = [
   {
     number: "01",
-    title: "Sites institucionais",
+    title: "Landing Pages",
     description:
-      "Sites profissionais para apresentar empresas, serviços, projetos e organizações.",
+      "Páginas estratégicas para apresentar produtos, serviços, campanhas e transformar visitantes em oportunidades.",
   },
   {
     number: "02",
-    title: "Sites para lojas",
+    title: "Sites institucionais",
     description:
-      "Catálogos digitais e experiências de compra adaptadas às necessidades do negócio.",
+      "Sites profissionais para apresentar empresas, serviços, projetos e fortalecer sua presença digital.",
   },
   {
     number: "03",
-    title: "Landing pages",
+    title: "Sites para lojas",
     description:
-      "Páginas objetivas para divulgar produtos, serviços, campanhas e oportunidades.",
+      "Catálogos digitais e experiências de compra desenvolvidas de acordo com as necessidades do negócio.",
   },
   {
     number: "04",
-    title: "Portfólios",
+    title: "Portfólios profissionais",
     description:
-      "Apresentações digitais personalizadas para profissionais e criadores.",
+      "Sites personalizados para profissionais, criadores e marcas apresentarem seus trabalhos de forma organizada.",
   },
   {
     number: "05",
-    title: "Manutenção de sites",
+    title: "Manutenção e ajustes",
     description:
-      "Ajustes visuais, atualizações de conteúdo e melhorias em projetos existentes.",
+      "Atualizações de conteúdo, melhorias visuais, correções e evolução de projetos já publicados.",
+  },
+  {
+    number: "06",
+    title: "Design responsivo",
+    description:
+      "Interfaces planejadas para funcionar bem em computadores, tablets e dispositivos móveis.",
   },
 ];
 
@@ -40,13 +46,13 @@ export function ServicesSection() {
             <p className="section-eyebrow">Serviços</p>
 
             <h2 className="section-title">
-              Como posso contribuir com seu projeto.
+              O que podemos criar para você.
             </h2>
           </div>
 
           <p className="section-description">
-            Desenvolvimento cuidadoso, comunicação clara e soluções compatíveis
-            com a necessidade de cada projeto.
+            Soluções digitais desenvolvidas de acordo com o objetivo de cada
+            negócio, profissional ou projeto.
           </p>
         </div>
 
@@ -60,9 +66,13 @@ export function ServicesSection() {
                 {service.number}
               </span>
 
-              <h3 className="text-xl font-semibold">{service.title}</h3>
+              <h3 className="text-xl font-semibold">
+                {service.title}
+              </h3>
 
-              <p className="leading-7 text-muted">{service.description}</p>
+              <p className="leading-7 text-muted">
+                {service.description}
+              </p>
             </article>
           ))}
         </div>

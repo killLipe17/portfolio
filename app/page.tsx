@@ -10,12 +10,7 @@ import { ProjectsSection } from "@/components/projects/projects-section";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen overflow-hidden">
-      <div
-        className="background-grid pointer-events-none absolute inset-x-0 top-0 -z-10 h-[850px]"
-        aria-hidden="true"
-      />
-
+    <div>
       <SiteHeader />
 
       <main>

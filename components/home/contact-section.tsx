@@ -15,15 +15,18 @@ export function ContactSection() {
           />
 
           <div className="relative z-10 mx-auto max-w-3xl">
-            <p className="section-eyebrow">Vamos criar algo útil?</p>
+            <p className="section-eyebrow">
+              Pronto para o próximo level?
+            </p>
 
             <h2 className="mt-5 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-6xl">
-              Tem uma ideia ou precisa melhorar sua presença digital?
+              Vamos transformar sua ideia em uma presença digital profissional.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted">
-              Estou disponível para conversar sobre sites institucionais,
-              lojas, landing pages, portfólios e manutenção de projetos.
+              Conte o que você precisa. A LIPEXP Studio desenvolve landing
+              pages, sites institucionais, portfólios e melhorias em projetos
+              existentes de acordo com o objetivo de cada negócio.
             </p>
 
             <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
@@ -33,18 +36,36 @@ export function ContactSection() {
                 rel="noreferrer"
                 className={primaryButton}
               >
-                Conversar pelo WhatsApp
+                Solicitar orçamento
                 <span aria-hidden="true">↗</span>
+              </a>
+
+              <a
+                href="mailto:lipexpstudio@gmail.com"
+                className={secondaryButton}
+              >
+                Enviar e-mail
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-muted">
+              <a
+                href="https://www.instagram.com/lipexpstudio/"
+                target="_blank"
+                rel="noreferrer"
+                className="transition hover:text-accent"
+              >
+                Instagram <span aria-hidden="true">↗</span>
               </a>
 
               <a
                 href="https://www.linkedin.com/in/fellipe-leite-4412a3377/"
                 target="_blank"
                 rel="noreferrer"
-                className={secondaryButton}
+                className="transition hover:text-accent"
               >
-                Acessar LinkedIn
-                <span aria-hidden="true">↗</span>
+                LinkedIn <span aria-hidden="true">↗</span>
               </a>
             </div>
           </div>

@@ -19,14 +19,14 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
   title: {
-    default: "Fellipe Leite | Desenvolvedor Web",
-    template: "%s | Fellipe Leite",
+    default: "LIPEXP Studio | Criação de Sites — Fellipe Leite",
+    template: "%s | LIPEXP Studio",
   },
 
   description:
-    "Portfólio de Fellipe Leite, desenvolvedor web formado em Análise e Desenvolvimento de Sistemas. Criação de sites modernos, responsivos e funcionais.",
+    "LIPEXP Studio, por Fellipe Leite. Criação de sites modernos, responsivos e funcionais para empresas, profissionais e projetos.",
 
-  applicationName: "Portfólio Fellipe Leite",
+  applicationName: "LIPEXP Studio",
 
   authors: [
     {
@@ -35,18 +35,22 @@ export const metadata: Metadata = {
   ],
 
   creator: "Fellipe Santos Leite",
-  publisher: "Fellipe Santos Leite",
+  publisher: "LIPEXP Studio",
 
   keywords: [
+    "LIPEXP Studio",
     "Fellipe Leite",
-    "desenvolvedor web",
     "criação de sites",
-    "desenvolvedor Next.js",
-    "sites institucionais",
-    "sites para lojas",
+    "desenvolvimento web",
+    "desenvolvedor web",
+    "web design",
     "landing pages",
+    "sites institucionais",
+    "sites para empresas",
+    "sites para lojas",
     "portfólios profissionais",
     "manutenção de sites",
+    "design responsivo",
     "Next.js",
     "React",
     "TypeScript",
@@ -55,6 +59,10 @@ export const metadata: Metadata = {
   ],
 
   category: "technology",
+
+  alternates: {
+    canonical: "/",
+  },
 
   referrer: "origin-when-cross-origin",
 
@@ -79,17 +87,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    title: "Fellipe Leite | Desenvolvedor Web",
+    url: "/",
+    title: "LIPEXP Studio | Criação de Sites",
     description:
-      "Sites modernos, responsivos e desenvolvidos para necessidades reais.",
-    siteName: "Portfólio Fellipe Leite",
+      "Sites modernos para negócios reais. Desenvolvimento web por Fellipe Leite.",
+    siteName: "LIPEXP Studio",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Fellipe Leite | Desenvolvedor Web",
+    title: "LIPEXP Studio | Criação de Sites",
     description:
-      "Sites modernos, responsivos e desenvolvidos para necessidades reais.",
+      "Sites modernos para negócios reais. Desenvolvimento web por Fellipe Leite.",
   },
 };
 
