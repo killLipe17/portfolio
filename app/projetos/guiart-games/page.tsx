@@ -6,8 +6,7 @@ import { SiteFooter } from "@/components/layout/site-footer";
 
 export const metadata: Metadata = {
   title: "Guiart Games e Colecionáveis",
-  description:
-    "Estudo de caso da Guiart Games e Colecionáveis, site para loja com catálogo, carrinho, pedidos pelo WhatsApp e painel administrativo.",
+  description: "Estudo de caso da Guiart Games e Colecionáveis, site para loja com catálogo, carrinho, pedidos pelo WhatsApp e painel administrativo.",
 };
 
 const technologies = [
@@ -20,79 +19,126 @@ const technologies = [
   "Supabase Storage",
   "Git",
   "GitHub",
-  "Vercel",
+  "Vercel"
+];
+
+const projectFacts = [
+  {
+    "label": "Tipo",
+    "value": "Projeto para negócio real"
+  },
+  {
+    "label": "Minha atuação",
+    "value": "Design + desenvolvimento full stack"
+  },
+  {
+    "label": "Dados",
+    "value": "Prisma + PostgreSQL"
+  },
+  {
+    "label": "Operação",
+    "value": "Catálogo + painel admin"
+  }
+];
+
+const objectives = [
+  {
+    "title": "Apresentar a marca",
+    "description": "Criar uma identidade própria e uma experiência responsiva para apresentar a loja e seus produtos."
+  },
+  {
+    "title": "Organizar o catálogo",
+    "description": "Permitir que clientes encontrem produtos por busca, filtros, categorias, plataformas e ordenação."
+  },
+  {
+    "title": "Facilitar os pedidos",
+    "description": "Organizar itens no carrinho e encaminhar o pedido para atendimento pelo WhatsApp."
+  }
 ];
 
 const mainFeatures = [
-  "Página inicial responsiva e identidade visual personalizada",
-  "Catálogo de produtos com busca, filtros e ordenação",
-  "Sugestões de busca diretamente no cabeçalho",
-  "Páginas individuais para os produtos",
-  "Carrinho e finalização do pedido pelo WhatsApp",
-  "Painel administrativo protegido",
-  "Cadastro e edição de produtos e categorias",
-  "Controle de estoque e gerenciamento de pedidos",
-  "Configurações gerais da loja",
-  "Upload e gerenciamento de várias imagens",
-  "Escolha da imagem de capa dos produtos",
-  "Rotação e exclusão de fotografias",
-  "Integração com WhatsApp, Instagram e TikTok",
+  {
+    "title": "Catálogo inteligente",
+    "description": "Busca, filtros, categorias e ordenação ajudam o cliente a encontrar games, consoles e colecionáveis com mais facilidade."
+  },
+  {
+    "title": "Páginas de produto",
+    "description": "Cada item possui uma apresentação própria com informações e imagens organizadas para apoiar a decisão de compra."
+  },
+  {
+    "title": "Carrinho + WhatsApp",
+    "description": "Os produtos escolhidos são reunidos em um carrinho e o pedido pode ser encaminhado diretamente para atendimento."
+  },
+  {
+    "title": "Painel administrativo",
+    "description": "Uma área protegida centraliza o cadastro e a edição de produtos, categorias e configurações da loja."
+  },
+  {
+    "title": "Estoque e pedidos",
+    "description": "A estrutura administrativa permite acompanhar estoque e organizar pedidos sem depender de alterações diretas no código."
+  },
+  {
+    "title": "Gestão de imagens",
+    "description": "Upload de múltiplas fotos, escolha de capa, rotação e exclusão dão mais autonomia para manter o catálogo atualizado."
+  }
 ];
 
 const challenges = [
   {
-    number: "01",
-    title: "Organização do catálogo",
-    description:
-      "Estruturar produtos, categorias, plataformas, busca e ordenação de maneira clara para facilitar a navegação dos clientes.",
+    "title": "Organização do catálogo",
+    "description": "Estruturar produtos, categorias, plataformas, busca e ordenação de maneira clara para facilitar a navegação dos clientes."
   },
   {
-    number: "02",
-    title: "Fluxo de pedidos",
-    description:
-      "Criar um carrinho funcional que organizasse os itens escolhidos e encaminhasse o pedido para atendimento pelo WhatsApp.",
+    "title": "Fluxo de pedidos",
+    "description": "Criar um carrinho funcional que organizasse os itens escolhidos e encaminhasse o pedido para atendimento pelo WhatsApp."
   },
   {
-    number: "03",
-    title: "Administração da loja",
-    description:
-      "Centralizar o cadastro de produtos, categorias, estoque, pedidos e configurações em uma área administrativa protegida.",
+    "title": "Administração da loja",
+    "description": "Centralizar produtos, categorias, estoque, pedidos e configurações em uma área administrativa protegida."
   },
   {
-    number: "04",
-    title: "Gerenciamento de imagens",
-    description:
-      "Permitir o envio de várias fotografias, escolha da capa, rotação e exclusão sem depender de alterações diretas no código.",
-  },
+    "title": "Gerenciamento de imagens",
+    "description": "Permitir várias fotografias por produto, escolha da capa, rotação e exclusão sem depender de alterações no código."
+  }
 ];
 
 const solutions = [
   {
-    title: "Aplicação com Next.js e TypeScript",
-    description:
-      "A interface e as funcionalidades foram organizadas com uma estrutura moderna, tipada e preparada para crescer.",
+    "title": "Aplicação com Next.js e TypeScript",
+    "description": "Interface e funcionalidades foram organizadas em uma estrutura moderna, tipada e preparada para crescer."
   },
   {
-    title: "Banco de dados com Prisma e PostgreSQL",
-    description:
-      "Produtos, categorias, pedidos, estoque e configurações foram estruturados em um banco de dados relacional.",
+    "title": "Banco de dados relacional",
+    "description": "Prisma e PostgreSQL estruturam produtos, categorias, pedidos, estoque e configurações da aplicação."
   },
   {
-    title: "Supabase para dados e imagens",
-    description:
-      "O Supabase foi utilizado para hospedar o banco de dados e o Supabase Storage para armazenar as imagens dos produtos.",
+    "title": "Supabase e Storage",
+    "description": "O Supabase participa da infraestrutura de dados e o Storage armazena as imagens utilizadas no catálogo."
   },
   {
-    title: "Publicação automatizada",
-    description:
-      "O projeto foi versionado no GitHub e publicado na Vercel, permitindo novos deploys a partir das atualizações enviadas ao repositório.",
+    "title": "Fluxo comercial com WhatsApp",
+    "description": "O carrinho organiza os itens e simplifica a transição do catálogo para o atendimento direto da loja."
   },
+  {
+    "title": "Área administrativa",
+    "description": "O painel reúne tarefas de manutenção do catálogo e reduz a necessidade de alterações manuais no código."
+  },
+  {
+    "title": "Publicação automatizada",
+    "description": "GitHub e Vercel permitem versionamento e novos deploys conforme o projeto evolui."
+  }
 ];
 
 const buttonBase =
   "inline-flex min-h-12 items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent";
 
 export default function GuiartGamesPage() {
+  const overviewParagraphs = [
+  "A Guiart Games e Colecionáveis precisava de uma presença digital capaz de apresentar seus produtos e facilitar o contato com clientes interessados em games, consoles e itens colecionáveis.",
+  "O projeto reúne apresentação da loja, catálogo de produtos, carrinho e gerenciamento interno em uma única aplicação.",
+  "A versão publicada possui estrutura para cadastrar produtos, controlar estoque, organizar pedidos e atualizar o conteúdo da loja."
+];
+
   return (
     <div className="relative min-h-screen overflow-hidden">
       <div
@@ -106,10 +152,7 @@ export default function GuiartGamesPage() {
             href="/#projetos"
             className="inline-flex items-center gap-3 text-sm font-semibold transition hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
           >
-            <span
-              className="font-mono text-lg text-accent"
-              aria-hidden="true"
-            >
+            <span className="font-mono text-lg text-accent" aria-hidden="true">
               ←
             </span>
             Voltar ao portfólio
@@ -122,8 +165,7 @@ export default function GuiartGamesPage() {
               rel="noreferrer"
               className="hidden min-h-10 items-center justify-center gap-2 rounded-md border border-border bg-white/[0.02] px-4 text-sm font-semibold text-foreground transition hover:border-accent hover:bg-accent/[0.06] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent sm:inline-flex"
             >
-              GitHub
-              <span aria-hidden="true">↗</span>
+              GitHub <span aria-hidden="true">↗</span>
             </a>
 
             <a
@@ -132,8 +174,7 @@ export default function GuiartGamesPage() {
               rel="noreferrer"
               className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-accent/50 px-4 text-sm font-semibold text-accent transition hover:border-accent hover:bg-accent/[0.08] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
             >
-              Visitar projeto
-              <span aria-hidden="true">↗</span>
+              Visitar projeto <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>
@@ -146,7 +187,6 @@ export default function GuiartGamesPage() {
               <span className="rounded-full border border-accent/30 bg-accent/[0.06] px-4 py-2 font-mono text-xs uppercase tracking-[0.16em] text-accent">
                 Estudo de caso
               </span>
-
               <span className="rounded-full border border-border px-4 py-2 font-mono text-xs uppercase tracking-[0.16em] text-muted">
                 Versão 1.0 publicada
               </span>
@@ -161,9 +201,7 @@ export default function GuiartGamesPage() {
             </h1>
 
             <p className="mt-7 max-w-3xl text-lg leading-8 text-muted">
-              Plataforma desenvolvida para apresentar o catálogo de uma loja de
-              games, consoles e colecionáveis, organizar produtos e estoque e
-              facilitar o envio de pedidos pelo WhatsApp.
+              Plataforma desenvolvida para apresentar o catálogo de uma loja de games, consoles e colecionáveis, organizar produtos e estoque e facilitar o envio de pedidos pelo WhatsApp.
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -173,8 +211,7 @@ export default function GuiartGamesPage() {
                 rel="noreferrer"
                 className={`${buttonBase} bg-accent text-black hover:bg-accent-strong`}
               >
-                Acessar site publicado
-                <span aria-hidden="true">↗</span>
+                Acessar site publicado <span aria-hidden="true">↗</span>
               </a>
 
               <a
@@ -183,8 +220,7 @@ export default function GuiartGamesPage() {
                 rel="noreferrer"
                 className={`${buttonBase} border border-border bg-white/[0.02] text-foreground hover:border-accent hover:bg-accent/[0.06]`}
               >
-                Ver código no GitHub
-                <span aria-hidden="true">↗</span>
+                Ver código no GitHub <span aria-hidden="true">↗</span>
               </a>
 
               <Link
@@ -211,7 +247,6 @@ export default function GuiartGamesPage() {
                 sizes="(max-width: 1280px) 100vw, 1280px"
                 className="object-cover object-top"
               />
-
               <div
                 className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-white/[0.03]"
                 aria-hidden="true"
@@ -236,31 +271,45 @@ export default function GuiartGamesPage() {
           <div className="section-container grid gap-12 lg:grid-cols-[0.7fr_1.3fr]">
             <div>
               <p className="section-eyebrow">Visão geral</p>
-
               <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
                 Um projeto criado para uma operação comercial real.
               </h2>
             </div>
 
             <div className="space-y-6 text-lg leading-8 text-muted">
-              <p>
-                A Guiart Games e Colecionáveis precisava de uma presença
-                digital capaz de apresentar seus produtos e facilitar o contato
-                com clientes interessados em games, consoles e itens
-                colecionáveis.
-              </p>
+              {overviewParagraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </div>
+          </div>
+        </section>
 
-              <p>
-                O projeto foi desenvolvido para reunir a apresentação da loja,
-                o catálogo de produtos, o carrinho e o gerenciamento interno em
-                uma única aplicação.
-              </p>
+        <section className="section-spacing border-t border-border">
+          <div className="section-container">
+            <div className="section-heading">
+              <div>
+                <p className="section-eyebrow">Projeto & atuação</p>
+                <h2 className="section-title">
+                  Uma solução comercial construída do front-end à operação.
+                </h2>
+              </div>
 
-              <p>
-                A versão 1.0 foi concluída e publicada com uma estrutura
-                preparada para cadastrar produtos, controlar estoque, organizar
-                pedidos e atualizar o conteúdo da loja.
+              <p className="section-description">
+                O projeto reúne identidade visual, experiência de compra, desenvolvimento full stack, banco de dados, painel administrativo e publicação para atender uma operação real.
               </p>
+            </div>
+
+            <div className="mt-14 grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
+              {projectFacts.map((fact) => (
+                <article key={fact.label} className="bg-surface p-7">
+                  <span className="font-mono text-xs text-accent">
+                    {fact.label}
+                  </span>
+                  <h3 className="mt-8 text-xl font-semibold">
+                    {fact.value}
+                  </h3>
+                </article>
+              ))}
             </div>
           </div>
         </section>
@@ -270,58 +319,30 @@ export default function GuiartGamesPage() {
             <div className="section-heading">
               <div>
                 <p className="section-eyebrow">Objetivo</p>
-
                 <h2 className="section-title">
                   Apresentar produtos e simplificar o atendimento.
                 </h2>
               </div>
 
               <p className="section-description">
-                A proposta foi criar uma experiência clara para o cliente e, ao
-                mesmo tempo, oferecer ferramentas para organizar as atividades
-                internas da loja.
+                A proposta foi criar uma experiência clara para o cliente e, ao mesmo tempo, oferecer ferramentas para organizar as atividades internas da loja.
               </p>
             </div>
 
             <div className="mt-14 grid gap-px overflow-hidden rounded-xl border border-border bg-border md:grid-cols-3">
-              <article className="bg-surface p-7 sm:p-9">
-                <span className="font-mono text-xs text-accent">01</span>
-
-                <h3 className="mt-8 text-xl font-semibold">
-                  Apresentar a marca
-                </h3>
-
-                <p className="mt-4 leading-7 text-muted">
-                  Criar uma identidade visual própria e uma página inicial
-                  responsiva para apresentar a loja.
-                </p>
-              </article>
-
-              <article className="bg-surface p-7 sm:p-9">
-                <span className="font-mono text-xs text-accent">02</span>
-
-                <h3 className="mt-8 text-xl font-semibold">
-                  Organizar o catálogo
-                </h3>
-
-                <p className="mt-4 leading-7 text-muted">
-                  Permitir que os clientes encontrem produtos por busca,
-                  categoria, plataforma e ordenação.
-                </p>
-              </article>
-
-              <article className="bg-surface p-7 sm:p-9">
-                <span className="font-mono text-xs text-accent">03</span>
-
-                <h3 className="mt-8 text-xl font-semibold">
-                  Facilitar os pedidos
-                </h3>
-
-                <p className="mt-4 leading-7 text-muted">
-                  Organizar os itens no carrinho e encaminhar o pedido para
-                  atendimento pelo WhatsApp.
-                </p>
-              </article>
+              {objectives.map((objective, index) => (
+                <article key={objective.title} className="bg-surface p-7 sm:p-9">
+                  <span className="font-mono text-xs text-accent">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="mt-8 text-xl font-semibold">
+                    {objective.title}
+                  </h3>
+                  <p className="mt-4 leading-7 text-muted">
+                    {objective.description}
+                  </p>
+                </article>
+              ))}
             </div>
           </div>
         </section>
@@ -331,30 +352,40 @@ export default function GuiartGamesPage() {
             <div className="section-heading">
               <div>
                 <p className="section-eyebrow">Principais recursos</p>
-
                 <h2 className="section-title">
-                  Funcionalidades presentes na versão publicada.
+                  O essencial da operação em seis frentes.
                 </h2>
               </div>
 
               <p className="section-description">
-                O projeto combina uma experiência pública para os clientes com
-                uma área administrativa para a organização da loja.
+                A seleção destaca os recursos que melhor demonstram a experiência do cliente e a estrutura administrativa do projeto.
               </p>
             </div>
 
-            <div className="mt-14 grid gap-3 md:grid-cols-2">
+            <div className="mt-14 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               {mainFeatures.map((feature, index) => (
-                <div
-                  key={feature}
-                  className="flex gap-4 rounded-lg border border-border bg-surface p-5"
+                <article
+                  key={feature.title}
+                  className="group rounded-xl border border-border bg-surface p-6 transition hover:border-accent/40 sm:p-7"
                 >
-                  <span className="font-mono text-xs text-accent">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
+                  <div className="flex items-center justify-between gap-4">
+                    <span className="font-mono text-xs text-accent">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <span
+                      className="h-px flex-1 bg-border transition group-hover:bg-accent/30"
+                      aria-hidden="true"
+                    />
+                  </div>
 
-                  <p className="leading-7 text-muted">{feature}</p>
-                </div>
+                  <h3 className="mt-7 text-xl font-semibold tracking-tight">
+                    {feature.title}
+                  </h3>
+
+                  <p className="mt-3 leading-7 text-muted">
+                    {feature.description}
+                  </p>
+                </article>
               ))}
             </div>
           </div>
@@ -365,33 +396,28 @@ export default function GuiartGamesPage() {
             <div className="section-heading">
               <div>
                 <p className="section-eyebrow">Desafios do projeto</p>
-
                 <h2 className="section-title">
-                  Pontos centrais trabalhados durante o desenvolvimento.
+                  Uma experiência simples por fora e completa por dentro.
                 </h2>
               </div>
 
               <p className="section-description">
-                A aplicação precisava manter a navegação simples para os
-                clientes sem limitar as ferramentas disponíveis para a
-                administração.
+                A aplicação precisava manter a navegação fácil para clientes sem limitar as ferramentas disponíveis para a administração.
               </p>
             </div>
 
             <div className="mt-14 grid gap-6 md:grid-cols-2">
-              {challenges.map((challenge) => (
+              {challenges.map((challenge, index) => (
                 <article
-                  key={challenge.number}
+                  key={challenge.title}
                   className="rounded-xl border border-border bg-surface p-7 sm:p-8"
                 >
                   <span className="font-mono text-sm text-accent">
-                    {challenge.number}
+                    {String(index + 1).padStart(2, "0")}
                   </span>
-
                   <h3 className="mt-8 text-2xl font-semibold tracking-tight">
                     {challenge.title}
                   </h3>
-
                   <p className="mt-4 leading-7 text-muted">
                     {challenge.description}
                   </p>
@@ -406,15 +432,13 @@ export default function GuiartGamesPage() {
             <div className="section-heading">
               <div>
                 <p className="section-eyebrow">Soluções aplicadas</p>
-
                 <h2 className="section-title">
                   Uma estrutura completa do front-end à publicação.
                 </h2>
               </div>
 
               <p className="section-description">
-                As tecnologias foram escolhidas para atender às funcionalidades
-                da loja sem adicionar complexidade sem necessidade.
+                As tecnologias foram escolhidas para atender às funcionalidades da loja sem adicionar complexidade desnecessária.
               </p>
             </div>
 
@@ -427,9 +451,9 @@ export default function GuiartGamesPage() {
                   <span className="font-mono text-sm text-accent">
                     {String(index + 1).padStart(2, "0")}
                   </span>
-
-                  <h3 className="text-xl font-semibold">{solution.title}</h3>
-
+                  <h3 className="text-xl font-semibold">
+                    {solution.title}
+                  </h3>
                   <p className="leading-7 text-muted">
                     {solution.description}
                   </p>
@@ -443,7 +467,6 @@ export default function GuiartGamesPage() {
           <div className="section-container grid gap-14 lg:grid-cols-[0.75fr_1.25fr]">
             <div>
               <p className="section-eyebrow">Tecnologias</p>
-
               <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
                 Ferramentas utilizadas no projeto.
               </h2>
@@ -471,16 +494,14 @@ export default function GuiartGamesPage() {
               />
 
               <div className="relative z-10 mx-auto max-w-3xl">
-                <p className="section-eyebrow">Resultado</p>
+                <p className="section-eyebrow">Resultado atual</p>
 
                 <h2 className="mt-5 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-6xl">
-                  Uma versão 1.0 completa e publicada.
+                  Uma loja publicada com catálogo e operação organizados.
                 </h2>
 
                 <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted">
-                  A Guiart Games possui uma presença digital própria, catálogo
-                  organizado, fluxo de pedidos pelo WhatsApp e ferramentas para
-                  administrar produtos, imagens, estoque e pedidos.
+                  A Guiart Games possui uma presença digital própria, catálogo organizado, fluxo de pedidos pelo WhatsApp e ferramentas para administrar produtos, imagens, estoque e pedidos.
                 </p>
 
                 <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row sm:flex-wrap">
@@ -490,8 +511,7 @@ export default function GuiartGamesPage() {
                     rel="noreferrer"
                     className={`${buttonBase} bg-accent text-black hover:bg-accent-strong`}
                   >
-                    Visitar Guiart Games
-                    <span aria-hidden="true">↗</span>
+                    Visitar projeto <span aria-hidden="true">↗</span>
                   </a>
 
                   <a
@@ -500,8 +520,7 @@ export default function GuiartGamesPage() {
                     rel="noreferrer"
                     className={`${buttonBase} border border-border bg-white/[0.02] text-foreground hover:border-accent hover:bg-accent/[0.06]`}
                   >
-                    Ver código no GitHub
-                    <span aria-hidden="true">↗</span>
+                    Ver código no GitHub <span aria-hidden="true">↗</span>
                   </a>
 
                   <Link

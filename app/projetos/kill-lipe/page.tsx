@@ -6,8 +6,7 @@ import { SiteFooter } from "@/components/layout/site-footer";
 
 export const metadata: Metadata = {
   title: "KILL LIPE",
-  description:
-    "Estudo de caso do KILL LIPE, site institucional e media kit para canal de games, com integração à YouTube Data API, conteúdo multilíngue e contato profissional.",
+  description: "Estudo de caso do KILL LIPE, site institucional e media kit para canal de games, com YouTube Data API, conteúdo multilíngue e contato profissional.",
 };
 
 const technologies = [
@@ -18,88 +17,126 @@ const technologies = [
   "Resend",
   "Git",
   "GitHub",
-  "Vercel",
+  "Vercel"
+];
+
+const projectFacts = [
+  {
+    "label": "Tipo",
+    "value": "Projeto autoral"
+  },
+  {
+    "label": "Minha atuação",
+    "value": "Design + desenvolvimento"
+  },
+  {
+    "label": "Integrações",
+    "value": "YouTube API + Resend"
+  },
+  {
+    "label": "Idiomas",
+    "value": "PT-BR • EN • ES"
+  }
+];
+
+const objectives = [
+  {
+    "title": "Apresentar o canal",
+    "description": "Reunir identidade, conteúdos, coberturas e informações profissionais em uma presença própria fora do YouTube."
+  },
+  {
+    "title": "Fortalecer contatos",
+    "description": "Criar uma apresentação clara para publishers, desenvolvedoras e equipes de PR conhecerem o projeto."
+  },
+  {
+    "title": "Automatizar informações",
+    "description": "Usar dados do YouTube para reduzir atualizações manuais e manter métricas e conteúdos relevantes atualizados."
+  }
 ];
 
 const mainFeatures = [
-  "Site multilíngue em PT-BR, inglês e espanhol",
-  "Layout responsivo para computador, tablet e celular",
-  "Integração com a YouTube Data API",
-  "Métricas do canal atualizadas automaticamente",
-  "Exibição dos últimos vídeos longos do canal",
-  "Filtragem para evitar Shorts na área de vídeos recentes",
-  "Destaque das 9 coberturas de maior alcance e uma cobertura recente",
-  "Área dedicada a publishers, desenvolvedoras e equipes de PR",
-  "Formulário de contato profissional integrado com Resend",
-  "Apresentação das principais coberturas de jogos",
-  "Identidade visual própria baseada na marca KILL LIPE",
-  "Deploy e atualizações contínuas pela Vercel",
+  {
+    "title": "Conteúdo multilíngue",
+    "description": "Versões em PT-BR, inglês e espanhol ampliam a apresentação do canal para audiência e empresas internacionais."
+  },
+  {
+    "title": "Dados do YouTube",
+    "description": "A YouTube Data API mantém métricas do canal e conteúdos importantes atualizados sem depender apenas de edição manual."
+  },
+  {
+    "title": "Vídeos relevantes",
+    "description": "A área de vídeos prioriza conteúdos longos, filtra Shorts e destaca coberturas importantes de forma organizada."
+  },
+  {
+    "title": "Apresentação profissional",
+    "description": "O site funciona como ponto de referência para publishers, desenvolvedoras e equipes de PR conhecerem o projeto."
+  },
+  {
+    "title": "Contato integrado",
+    "description": "O formulário conectado ao Resend cria um canal direto para propostas, parcerias e contatos profissionais."
+  },
+  {
+    "title": "Experiência responsiva",
+    "description": "Identidade, hierarquia e navegação foram adaptadas para desktop, tablet e celular mantendo a linguagem do KILL LIPE."
+  }
 ];
 
 const challenges = [
   {
-    number: "01",
-    title: "Atender público e empresas",
-    description:
-      "Criar uma experiência que apresentasse o canal para quem acompanha os conteúdos e, ao mesmo tempo, funcionasse como material profissional para publishers, desenvolvedoras e equipes de PR.",
+    "title": "Atender público e empresas",
+    "description": "Criar uma experiência útil para a audiência do canal e, ao mesmo tempo, adequada como apresentação profissional para o mercado de games."
   },
   {
-    number: "02",
-    title: "Trabalhar com dados do YouTube",
-    description:
-      "Integrar informações atualizadas do canal e organizar vídeos e métricas sem depender de atualizações manuais para cada novo conteúdo publicado.",
+    "title": "Trabalhar com dados externos",
+    "description": "Integrar métricas e conteúdos do YouTube de forma confiável e organizada, reduzindo dependência de atualizações manuais."
   },
   {
-    number: "03",
-    title: "Organizar três idiomas",
-    description:
-      "Disponibilizar a apresentação profissional do projeto em português, inglês e espanhol mantendo consistência visual e uma navegação simples.",
+    "title": "Organizar três idiomas",
+    "description": "Disponibilizar conteúdo em português, inglês e espanhol sem comprometer consistência visual e navegação."
   },
   {
-    number: "04",
-    title: "Separar conteúdo relevante",
-    description:
-      "Apresentar vídeos longos e coberturas importantes de forma organizada, evitando que Shorts e outros formatos interferissem nas áreas principais do site.",
-  },
+    "title": "Separar conteúdo relevante",
+    "description": "Priorizar vídeos longos e coberturas importantes, evitando que Shorts interfiram nas áreas principais do site."
+  }
 ];
 
 const solutions = [
   {
-    title: "Arquitetura com Next.js e TypeScript",
-    description:
-      "O projeto utiliza componentes reutilizáveis e tipagem para manter a interface organizada e permitir a evolução das diferentes áreas do site.",
+    "title": "Arquitetura com Next.js e TypeScript",
+    "description": "Componentes reutilizáveis e tipagem ajudam a manter a aplicação organizada e preparada para evolução."
   },
   {
-    title: "Integração com YouTube Data API",
-    description:
-      "Dados do canal são consultados por meio da API do YouTube para apresentar métricas e conteúdos atualizados de forma automatizada.",
+    "title": "Integração com YouTube Data API",
+    "description": "Métricas e conteúdos do canal são consultados via API para manter áreas importantes mais próximas do estado atual."
   },
   {
-    title: "Experiência multilíngue",
-    description:
-      "O conteúdo foi estruturado em versões PT-BR, inglês e espanhol para permitir que empresas e profissionais internacionais conheçam o canal.",
+    "title": "Experiência multilíngue",
+    "description": "A estrutura foi organizada em versões PT-BR, inglês e espanhol para atender público e contatos internacionais."
   },
   {
-    title: "Contato profissional com Resend",
-    description:
-      "O formulário do site utiliza Resend para transformar a página em um canal direto de contato para propostas, parcerias e oportunidades profissionais.",
+    "title": "Contato profissional com Resend",
+    "description": "O formulário transforma o site em um canal direto para propostas, parcerias e oportunidades profissionais."
   },
   {
-    title: "Interface responsiva",
-    description:
-      "A navegação e as seções foram planejadas para preservar hierarquia, leitura e identidade visual tanto no desktop quanto em dispositivos móveis.",
+    "title": "Interface responsiva",
+    "description": "A navegação preserva hierarquia, identidade e legibilidade em desktop, tablet e celular."
   },
   {
-    title: "Versionamento e publicação",
-    description:
-      "O projeto é versionado com Git e GitHub e publicado na Vercel, facilitando atualizações e novas versões do conteúdo.",
-  },
+    "title": "Versionamento e publicação",
+    "description": "Git, GitHub e Vercel formam o fluxo de atualização e publicação contínua do projeto."
+  }
 ];
 
 const buttonBase =
   "inline-flex min-h-12 items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent";
 
 export default function KillLipePage() {
+  const overviewParagraphs = [
+  "O KILL LIPE é um canal brasileiro de games com conteúdo voltado a gameplays, guias e cobertura de lançamentos.",
+  "O site foi desenvolvido para reunir conteúdos do canal e, simultaneamente, apresentar informações profissionais para publishers, desenvolvedoras e equipes de relações públicas.",
+  "A plataforma utiliza dados do YouTube para manter áreas importantes atualizadas e possui versões em português, inglês e espanhol."
+];
+
   return (
     <div className="relative min-h-screen overflow-hidden">
       <div
@@ -126,8 +163,7 @@ export default function KillLipePage() {
               rel="noreferrer"
               className="hidden min-h-10 items-center justify-center gap-2 rounded-md border border-border bg-white/[0.02] px-4 text-sm font-semibold text-foreground transition hover:border-accent hover:bg-accent/[0.06] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent sm:inline-flex"
             >
-              GitHub
-              <span aria-hidden="true">↗</span>
+              GitHub <span aria-hidden="true">↗</span>
             </a>
 
             <a
@@ -136,22 +172,19 @@ export default function KillLipePage() {
               rel="noreferrer"
               className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-accent/50 px-4 text-sm font-semibold text-accent transition hover:border-accent hover:bg-accent/[0.08] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
             >
-              Visitar projeto
-              <span aria-hidden="true">↗</span>
+              Visitar projeto <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>
       </header>
 
       <main>
-        {/* HERO */}
         <section className="mx-auto w-full max-w-7xl px-5 pb-20 pt-16 sm:px-8 sm:pt-24">
           <div className="max-w-4xl">
             <div className="mb-7 flex flex-wrap items-center gap-3">
               <span className="rounded-full border border-accent/30 bg-accent/[0.06] px-4 py-2 font-mono text-xs uppercase tracking-[0.16em] text-accent">
                 Estudo de caso
               </span>
-
               <span className="rounded-full border border-border px-4 py-2 font-mono text-xs uppercase tracking-[0.16em] text-muted">
                 Publicado
               </span>
@@ -166,10 +199,7 @@ export default function KillLipePage() {
             </h1>
 
             <p className="mt-7 max-w-3xl text-lg leading-8 text-muted">
-              Site institucional criado para apresentar o canal, destacar
-              conteúdos e coberturas, exibir métricas atualizadas e facilitar
-              contatos profissionais com publishers, desenvolvedoras e equipes
-              de PR.
+              Site institucional criado para apresentar o canal, destacar conteúdos e coberturas, exibir métricas atualizadas e facilitar contatos profissionais com publishers, desenvolvedoras e equipes de PR.
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -179,8 +209,7 @@ export default function KillLipePage() {
                 rel="noreferrer"
                 className={`${buttonBase} bg-accent text-black hover:bg-accent-strong`}
               >
-                Acessar site publicado
-                <span aria-hidden="true">↗</span>
+                Acessar site publicado <span aria-hidden="true">↗</span>
               </a>
 
               <a
@@ -189,8 +218,7 @@ export default function KillLipePage() {
                 rel="noreferrer"
                 className={`${buttonBase} border border-border bg-white/[0.02] text-foreground hover:border-accent hover:bg-accent/[0.06]`}
               >
-                Ver código no GitHub
-                <span aria-hidden="true">↗</span>
+                Ver código no GitHub <span aria-hidden="true">↗</span>
               </a>
 
               <Link
@@ -217,7 +245,6 @@ export default function KillLipePage() {
                 sizes="(max-width: 1280px) 100vw, 1280px"
                 className="object-cover object-top"
               />
-
               <div
                 className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-white/[0.03]"
                 aria-hidden="true"
@@ -238,225 +265,157 @@ export default function KillLipePage() {
           </div>
         </section>
 
-        {/* VISÃO GERAL */}
         <section className="section-spacing border-t border-border">
           <div className="section-container grid gap-12 lg:grid-cols-[0.7fr_1.3fr]">
             <div>
               <p className="section-eyebrow">Visão geral</p>
-
               <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
                 Um ponto central para o canal e sua apresentação profissional.
               </h2>
             </div>
 
             <div className="space-y-6 text-lg leading-8 text-muted">
-              <p>
-                O KILL LIPE é um canal brasileiro de games com conteúdo voltado
-                a gameplays, guias e cobertura de lançamentos.
-              </p>
-
-              <p>
-                O site foi desenvolvido para reunir conteúdos do canal e,
-                simultaneamente, apresentar informações profissionais para
-                publishers, desenvolvedoras e equipes de relações públicas.
-              </p>
-
-              <p>
-                A plataforma também utiliza dados do YouTube para manter áreas
-                importantes atualizadas e possui versões em português, inglês e
-                espanhol.
-              </p>
+              {overviewParagraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* INFORMAÇÕES */}
         <section className="section-spacing border-t border-border">
           <div className="section-container">
             <div className="section-heading">
               <div>
-                <p className="section-eyebrow">Informações do projeto</p>
-
+                <p className="section-eyebrow">Projeto & atuação</p>
                 <h2 className="section-title">
-                  Conteúdo e apresentação pensados para dois públicos.
+                  Do conceito ao deploy, um projeto desenvolvido de ponta a ponta.
                 </h2>
               </div>
 
               <p className="section-description">
-                O site atende tanto quem acompanha o canal quanto empresas e
-                profissionais interessados em conhecer o projeto.
+                Além de ser um projeto autoral, o KILL LIPE reúne decisões de produto, identidade visual, interface, desenvolvimento, integrações e publicação.
               </p>
             </div>
 
             <div className="mt-14 grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
-              <article className="bg-surface p-7">
-                <span className="font-mono text-xs text-accent">Formato</span>
-
-                <h3 className="mt-8 text-xl font-semibold">
-                  Site institucional + Media Kit
-                </h3>
-              </article>
-
-              <article className="bg-surface p-7">
-                <span className="font-mono text-xs text-accent">Idiomas</span>
-
-                <h3 className="mt-8 text-xl font-semibold">
-                  PT-BR • EN • ES
-                </h3>
-              </article>
-
-              <article className="bg-surface p-7">
-                <span className="font-mono text-xs text-accent">
-                  Integração
-                </span>
-
-                <h3 className="mt-8 text-xl font-semibold">
-                  YouTube Data API
-                </h3>
-              </article>
-
-              <article className="bg-surface p-7">
-                <span className="font-mono text-xs text-accent">Contato</span>
-
-                <h3 className="mt-8 text-xl font-semibold">
-  Publishers, desenvolvedoras e PR
-</h3>
-              </article>
+              {projectFacts.map((fact) => (
+                <article key={fact.label} className="bg-surface p-7">
+                  <span className="font-mono text-xs text-accent">
+                    {fact.label}
+                  </span>
+                  <h3 className="mt-8 text-xl font-semibold">
+                    {fact.value}
+                  </h3>
+                </article>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* OBJETIVO */}
         <section className="section-spacing border-t border-border">
           <div className="section-container">
             <div className="section-heading">
               <div>
                 <p className="section-eyebrow">Objetivo</p>
-
                 <h2 className="section-title">
                   Transformar o canal em uma presença profissional completa.
                 </h2>
               </div>
 
               <p className="section-description">
-                Mais do que divulgar vídeos, o projeto foi pensado para
-                apresentar o KILL LIPE de maneira organizada para audiência e
-                empresas do mercado de games.
+                Mais do que divulgar vídeos, o projeto foi pensado para apresentar o KILL LIPE de maneira organizada para audiência e empresas do mercado de games.
               </p>
             </div>
 
             <div className="mt-14 grid gap-px overflow-hidden rounded-xl border border-border bg-border md:grid-cols-3">
-              <article className="bg-surface p-7 sm:p-9">
-                <span className="font-mono text-xs text-accent">01</span>
-
-                <h3 className="mt-8 text-xl font-semibold">
-                  Apresentar o canal
-                </h3>
-
-                <p className="mt-4 leading-7 text-muted">
-                  Reunir identidade, conteúdos, coberturas e informações
-                  importantes em uma experiência própria fora do YouTube.
-                </p>
-              </article>
-
-              <article className="bg-surface p-7 sm:p-9">
-                <span className="font-mono text-xs text-accent">02</span>
-
-                <h3 className="mt-8 text-xl font-semibold">
-                  Fortalecer contatos profissionais
-                </h3>
-
-                <p className="mt-4 leading-7 text-muted">
-                  Criar uma área clara para empresas conhecerem o canal,
-                  coberturas realizadas e formas de contato.
-                </p>
-              </article>
-
-              <article className="bg-surface p-7 sm:p-9">
-                <span className="font-mono text-xs text-accent">03</span>
-
-                <h3 className="mt-8 text-xl font-semibold">
-                  Automatizar informações
-                </h3>
-
-                <p className="mt-4 leading-7 text-muted">
-                  Utilizar dados do YouTube para reduzir atualizações manuais e
-                  manter métricas e conteúdos relevantes mais próximos do estado
-                  atual do canal.
-                </p>
-              </article>
+              {objectives.map((objective, index) => (
+                <article key={objective.title} className="bg-surface p-7 sm:p-9">
+                  <span className="font-mono text-xs text-accent">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="mt-8 text-xl font-semibold">
+                    {objective.title}
+                  </h3>
+                  <p className="mt-4 leading-7 text-muted">
+                    {objective.description}
+                  </p>
+                </article>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* RECURSOS */}
         <section className="section-spacing border-t border-border">
           <div className="section-container">
             <div className="section-heading">
               <div>
                 <p className="section-eyebrow">Principais recursos</p>
-
                 <h2 className="section-title">
                   Uma plataforma conectada ao conteúdo do canal.
                 </h2>
               </div>
 
               <p className="section-description">
-                Recursos técnicos e editoriais foram combinados para manter o
-                site útil tanto para visitantes quanto para contatos
-                profissionais.
+                Os recursos principais combinam automação, conteúdo editorial e apresentação profissional sem transformar o case em uma lista extensa.
               </p>
             </div>
 
-            <div className="mt-14 grid gap-3 md:grid-cols-2">
+            <div className="mt-14 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               {mainFeatures.map((feature, index) => (
-                <div
-                  key={feature}
-                  className="flex gap-4 rounded-lg border border-border bg-surface p-5"
+                <article
+                  key={feature.title}
+                  className="group rounded-xl border border-border bg-surface p-6 transition hover:border-accent/40 sm:p-7"
                 >
-                  <span className="font-mono text-xs text-accent">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
+                  <div className="flex items-center justify-between gap-4">
+                    <span className="font-mono text-xs text-accent">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <span
+                      className="h-px flex-1 bg-border transition group-hover:bg-accent/30"
+                      aria-hidden="true"
+                    />
+                  </div>
 
-                  <p className="leading-7 text-muted">{feature}</p>
-                </div>
+                  <h3 className="mt-7 text-xl font-semibold tracking-tight">
+                    {feature.title}
+                  </h3>
+
+                  <p className="mt-3 leading-7 text-muted">
+                    {feature.description}
+                  </p>
+                </article>
               ))}
             </div>
           </div>
         </section>
 
-        {/* DESAFIOS */}
         <section className="section-spacing border-t border-border">
           <div className="section-container">
             <div className="section-heading">
               <div>
                 <p className="section-eyebrow">Desafios do projeto</p>
-
                 <h2 className="section-title">
                   Conteúdo dinâmico sem perder clareza e identidade.
                 </h2>
               </div>
 
               <p className="section-description">
-                O projeto precisava conciliar dados externos, diferentes
-                idiomas, conteúdo editorial e apresentação profissional.
+                O projeto precisava conciliar dados externos, diferentes idiomas, conteúdo editorial e apresentação profissional.
               </p>
             </div>
 
             <div className="mt-14 grid gap-6 md:grid-cols-2">
-              {challenges.map((challenge) => (
+              {challenges.map((challenge, index) => (
                 <article
-                  key={challenge.number}
+                  key={challenge.title}
                   className="rounded-xl border border-border bg-surface p-7 sm:p-8"
                 >
                   <span className="font-mono text-sm text-accent">
-                    {challenge.number}
+                    {String(index + 1).padStart(2, "0")}
                   </span>
-
                   <h3 className="mt-8 text-2xl font-semibold tracking-tight">
                     {challenge.title}
                   </h3>
-
                   <p className="mt-4 leading-7 text-muted">
                     {challenge.description}
                   </p>
@@ -466,21 +425,18 @@ export default function KillLipePage() {
           </div>
         </section>
 
-        {/* SOLUÇÕES */}
         <section className="section-spacing border-t border-border">
           <div className="section-container">
             <div className="section-heading">
               <div>
                 <p className="section-eyebrow">Soluções aplicadas</p>
-
                 <h2 className="section-title">
                   Automação, organização e uma base preparada para crescer.
                 </h2>
               </div>
 
               <p className="section-description">
-                A arquitetura foi planejada para facilitar atualizações,
-                integrações e a expansão de novas coberturas no futuro.
+                A arquitetura foi planejada para facilitar atualizações, integrações e a expansão de novas coberturas.
               </p>
             </div>
 
@@ -493,9 +449,9 @@ export default function KillLipePage() {
                   <span className="font-mono text-sm text-accent">
                     {String(index + 1).padStart(2, "0")}
                   </span>
-
-                  <h3 className="text-xl font-semibold">{solution.title}</h3>
-
+                  <h3 className="text-xl font-semibold">
+                    {solution.title}
+                  </h3>
                   <p className="leading-7 text-muted">
                     {solution.description}
                   </p>
@@ -505,12 +461,10 @@ export default function KillLipePage() {
           </div>
         </section>
 
-        {/* TECNOLOGIAS */}
         <section className="section-spacing border-t border-border">
           <div className="section-container grid gap-14 lg:grid-cols-[0.75fr_1.25fr]">
             <div>
               <p className="section-eyebrow">Tecnologias</p>
-
               <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
                 Ferramentas utilizadas no projeto.
               </h2>
@@ -529,7 +483,6 @@ export default function KillLipePage() {
           </div>
         </section>
 
-        {/* RESULTADO */}
         <section className="section-spacing border-t border-border">
           <div className="section-container">
             <div className="relative overflow-hidden rounded-2xl border border-accent/30 bg-surface px-6 py-16 text-center sm:px-12 sm:py-20">
@@ -542,15 +495,11 @@ export default function KillLipePage() {
                 <p className="section-eyebrow">Resultado atual</p>
 
                 <h2 className="mt-5 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-6xl">
-                  Um site publicado que representa o canal dentro e fora do
-                  YouTube.
+                  Um site publicado que representa o canal dentro e fora do YouTube.
                 </h2>
 
                 <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted">
-                  O KILL LIPE agora possui uma presença digital própria para
-                  reunir conteúdos, apresentar suas principais coberturas,
-                  disponibilizar informações profissionais e facilitar novas
-                  oportunidades no mercado de games.
+                  O KILL LIPE possui uma presença digital própria para reunir conteúdos, apresentar coberturas, disponibilizar informações profissionais e facilitar novas oportunidades no mercado de games.
                 </p>
 
                 <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row sm:flex-wrap">
@@ -560,8 +509,7 @@ export default function KillLipePage() {
                     rel="noreferrer"
                     className={`${buttonBase} bg-accent text-black hover:bg-accent-strong`}
                   >
-                    Visitar KILL LIPE
-                    <span aria-hidden="true">↗</span>
+                    Visitar projeto <span aria-hidden="true">↗</span>
                   </a>
 
                   <a
@@ -570,8 +518,7 @@ export default function KillLipePage() {
                     rel="noreferrer"
                     className={`${buttonBase} border border-border bg-white/[0.02] text-foreground hover:border-accent hover:bg-accent/[0.06]`}
                   >
-                    Ver código no GitHub
-                    <span aria-hidden="true">↗</span>
+                    Ver código no GitHub <span aria-hidden="true">↗</span>
                   </a>
 
                   <Link
