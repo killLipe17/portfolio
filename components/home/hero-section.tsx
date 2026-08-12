@@ -13,7 +13,7 @@ export function HeroSection() {
       <div>
         <div className="mb-7 inline-flex items-center gap-3 rounded-full border border-border bg-surface/70 px-4 py-2 font-mono text-xs uppercase tracking-[0.16em] text-muted">
           <span className="size-2 rounded-full bg-accent shadow-[0_0_14px_var(--accent)]" />
-          Disponível para novos projetos
+          Disponível para projetos e oportunidades
         </div>
 
         <p className="mb-4 font-mono text-sm uppercase tracking-[0.2em] text-accent">
