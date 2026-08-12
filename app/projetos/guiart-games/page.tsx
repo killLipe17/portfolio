@@ -6,7 +6,27 @@ import { SiteFooter } from "@/components/layout/site-footer";
 
 export const metadata: Metadata = {
   title: "Guiart Games e Colecionáveis",
-  description: "Estudo de caso da Guiart Games e Colecionáveis, site para loja com catálogo, carrinho, pedidos pelo WhatsApp e painel administrativo.",
+  description:
+    "Estudo de caso da Guiart Games e Colecionáveis, site para loja com catálogo, carrinho, pedidos pelo WhatsApp e painel administrativo.",
+
+  alternates: {
+    canonical: "/projetos/guiart-games",
+  },
+
+  openGraph: {
+    type: "website",
+    url: "/projetos/guiart-games",
+    title: "Guiart Games e Colecionáveis | LIPEXP Studio",
+    description:
+      "Site para loja com catálogo, carrinho, painel administrativo e integração com WhatsApp.",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Guiart Games e Colecionáveis | LIPEXP Studio",
+    description:
+      "Projeto de e-commerce e sistema administrativo desenvolvido pela LIPEXP Studio.",
+  },
 };
 
 const technologies = [

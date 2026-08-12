@@ -121,7 +121,7 @@ export default function OpenGraphImage() {
             flexDirection: "column",
             justifyContent: "space-between",
             position: "relative",
-            zIndex: 1,
+          
           }}
         >
           {/* TOPO */}

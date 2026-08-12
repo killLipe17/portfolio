@@ -6,7 +6,27 @@ import { SiteFooter } from "@/components/layout/site-footer";
 
 export const metadata: Metadata = {
   title: "KILL LIPE",
-  description: "Estudo de caso do KILL LIPE, site institucional e media kit para canal de games, com YouTube Data API, conteúdo multilíngue e contato profissional.",
+  description:
+    "Estudo de caso do KILL LIPE, site institucional e media kit para canal de games, com YouTube Data API, conteúdo multilíngue e contato profissional.",
+
+  alternates: {
+    canonical: "/projetos/kill-lipe",
+  },
+
+  openGraph: {
+    type: "website",
+    url: "/projetos/kill-lipe",
+    title: "KILL LIPE | LIPEXP Studio",
+    description:
+      "Site institucional e media kit para canal de games, com YouTube Data API, conteúdo multilíngue e contato profissional.",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "KILL LIPE | LIPEXP Studio",
+    description:
+      "Site institucional e media kit para canal de games desenvolvido pela LIPEXP Studio.",
+  },
 };
 
 const technologies = [

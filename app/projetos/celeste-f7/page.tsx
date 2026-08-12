@@ -6,9 +6,28 @@ import { SiteFooter } from "@/components/layout/site-footer";
 
 export const metadata: Metadata = {
   title: "Celeste F7",
-  description: "Estudo de caso do Celeste F7, site institucional de Futebol 7 desenvolvido para apresentar história, jogos, elenco, patrocinadores e informações do time.",
-};
+  description:
+    "Estudo de caso do Celeste F7, site institucional de Futebol 7 desenvolvido para apresentar história, jogos, elenco, patrocinadores e informações do time.",
 
+  alternates: {
+    canonical: "/projetos/celeste-f7",
+  },
+
+  openGraph: {
+    type: "website",
+    url: "/projetos/celeste-f7",
+    title: "Celeste F7 | LIPEXP Studio",
+    description:
+      "Site institucional de Futebol 7 com história, jogos, elenco, patrocinadores e informações do time.",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Celeste F7 | LIPEXP Studio",
+    description:
+      "Site institucional esportivo desenvolvido pela LIPEXP Studio.",
+  },
+};
 const technologies = [
   "Next.js 16",
   "TypeScript",
