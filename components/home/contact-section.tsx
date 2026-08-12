@@ -8,45 +8,103 @@ export function ContactSection() {
   return (
     <section id="contato" className="section-spacing border-t border-border">
       <div className="section-container">
-        <div className="relative overflow-hidden rounded-2xl border border-accent/30 bg-surface px-6 py-16 text-center sm:px-12 sm:py-20">
+        <div className="relative overflow-hidden rounded-2xl border border-accent/30 bg-surface px-6 py-14 sm:px-10 sm:py-16">
           <div
             className="absolute left-1/2 top-0 -z-0 h-60 w-96 -translate-x-1/2 rounded-full bg-accent/[0.09] blur-3xl"
             aria-hidden="true"
           />
 
-          <div className="relative z-10 mx-auto max-w-3xl">
-            <p className="section-eyebrow">
-              Pronto para o próximo level?
-            </p>
+          <div className="relative z-10 mx-auto max-w-5xl">
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="section-eyebrow">
+                Vamos conversar?
+              </p>
 
-            <h2 className="mt-5 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-6xl">
-              Vamos transformar sua ideia em uma presença digital profissional.
-            </h2>
+              <h2 className="mt-5 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-6xl">
+                Um projeto para a LIPEXP ou uma oportunidade para o Fellipe?
+              </h2>
 
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted">
-              Conte o que você precisa. A LIPEXP Studio desenvolve landing
-              pages, sites institucionais, portfólios e melhorias em projetos
-              existentes de acordo com o objetivo de cada negócio.
-            </p>
+              <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted">
+                Escolha o caminho que faz mais sentido. Estou disponível para
+                novos projetos freelance e oportunidades profissionais em
+                desenvolvimento web.
+              </p>
+            </div>
 
-            <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
-              <a
-                href="https://wa.me/5511914442908"
-                target="_blank"
-                rel="noreferrer"
-                className={primaryButton}
-              >
-                Solicitar orçamento
-                <span aria-hidden="true">↗</span>
-              </a>
+            <div className="mt-12 grid gap-4 md:grid-cols-2">
+              <article className="rounded-xl border border-border bg-background/30 p-6 sm:p-7">
+                <span className="font-mono text-xs uppercase tracking-[0.16em] text-accent">
+                  Para negócios
+                </span>
 
-              <a
-                href="mailto:lipexpstudio@gmail.com"
-                className={secondaryButton}
-              >
-                Enviar e-mail
-                <span aria-hidden="true">↗</span>
-              </a>
+                <h3 className="mt-4 text-2xl font-semibold">
+                  Quero contratar a LIPEXP
+                </h3>
+
+                <p className="mt-3 leading-7 text-muted">
+                  Tem uma ideia, precisa de um site novo ou quer melhorar um
+                  projeto existente? Conte o que você precisa e podemos
+                  conversar sobre a melhor solução.
+                </p>
+
+                <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+                  <a
+                    href="https://wa.me/5511914442908"
+                    target="_blank"
+                    rel="noreferrer"
+                    className={primaryButton}
+                  >
+                    Solicitar orçamento
+                    <span aria-hidden="true">↗</span>
+                  </a>
+
+                  <a
+                    href="mailto:lipexpstudio@gmail.com"
+                    className={secondaryButton}
+                  >
+                    Enviar e-mail
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </article>
+
+              <article className="rounded-xl border border-border bg-background/30 p-6 sm:p-7">
+                <span className="font-mono text-xs uppercase tracking-[0.16em] text-accent">
+                  Para recrutadores
+                </span>
+
+                <h3 className="mt-4 text-2xl font-semibold">
+                  Tenho uma oportunidade profissional
+                </h3>
+
+                <p className="mt-3 leading-7 text-muted">
+                  Estou aberto a oportunidades em desenvolvimento web e
+                  tecnologia. Você pode conhecer meus projetos, acessar meu
+                  currículo ou entrar em contato pelo LinkedIn.
+                </p>
+
+                <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+                  <a
+                    href="https://www.linkedin.com/in/fellipe-leite-4412a3377/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className={primaryButton}
+                  >
+                    Ver LinkedIn
+                    <span aria-hidden="true">↗</span>
+                  </a>
+
+                  <a
+                    href="/curriculo-fellipe-leite.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                    className={secondaryButton}
+                  >
+                    Currículo
+                    <span aria-hidden="true">↓</span>
+                  </a>
+                </div>
+              </article>
             </div>
 
             <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-muted">
@@ -60,13 +118,13 @@ export function ContactSection() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/fellipe-leite-4412a3377/"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:lipexpstudio@gmail.com"
                 className="transition hover:text-accent"
               >
-                LinkedIn <span aria-hidden="true">↗</span>
+                lipexpstudio@gmail.com
               </a>
+
+              <span>São Paulo / SP</span>
             </div>
           </div>
         </div>
