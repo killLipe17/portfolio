@@ -56,6 +56,15 @@ export function SiteFooter() {
           <p className="mt-1 text-xs">
             Desenvolvido por Fellipe Leite.
           </p>
+
+          <p className="mt-2 text-xs">
+            <a
+              href="/politica-de-privacidade/sagatrack"
+              className="social-link"
+            >
+              Política de Privacidade — SagaTrack
+            </a>
+          </p>
         </div>
       </div>
     </footer>
