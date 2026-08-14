@@ -10,7 +10,6 @@ export function ProjectsSection() {
         <div className="section-heading">
           <div>
             <p className="section-eyebrow">Portfólio LIPEXP</p>
-
             <h2 className="section-title">
               Projetos reais. Soluções que saíram do papel.
             </h2>
@@ -40,7 +39,6 @@ export function ProjectsSection() {
                   <span className="font-mono text-sm uppercase tracking-[0.14em] text-accent">
                     Case {project.number}
                   </span>
-
                   <span className="max-w-[210px] rounded-full border border-border px-3 py-1 text-right text-xs leading-5 text-muted">
                     {project.status}
                   </span>
@@ -55,7 +53,6 @@ export function ProjectsSection() {
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover object-top transition duration-500 group-hover:scale-[1.02]"
                     />
-
                     <div
                       className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-white/[0.03]"
                       aria-hidden="true"
@@ -87,23 +84,19 @@ export function ProjectsSection() {
                   {project.description}
                 </p>
 
-<div className="mt-6 grid gap-2 sm:grid-cols-3">
-  {project.highlights.map((highlight) => (
-    <div
-      key={highlight}
-      className="flex min-h-14 items-center gap-2 rounded-lg border border-accent/15 bg-accent/[0.03] px-3 py-2.5 text-sm leading-5 text-foreground"
-    >
-      <span
-        className="font-mono text-accent"
-        aria-hidden="true"
-      >
-        +
-      </span>
-
-      <span>{highlight}</span>
-    </div>
-  ))}
-</div>
+                <div className="mt-6 grid gap-2 sm:grid-cols-3">
+                  {project.highlights.map((highlight) => (
+                    <div
+                      key={highlight}
+                      className="flex min-h-14 items-center gap-2 rounded-lg border border-accent/15 bg-accent/[0.03] px-3 py-2.5 text-sm leading-5 text-foreground"
+                    >
+                      <span className="font-mono text-accent" aria-hidden="true">
+                        +
+                      </span>
+                      <span>{highlight}</span>
+                    </div>
+                  ))}
+                </div>
 
                 <div className="mt-6 flex flex-wrap gap-2">
                   {project.technologies.map((technology) => (
@@ -127,15 +120,17 @@ export function ProjectsSection() {
                     </Link>
                   )}
 
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-border bg-white/[0.02] px-5 py-2.5 text-sm font-semibold text-foreground transition hover:border-accent hover:bg-accent/[0.06] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
-                  >
-                    Visitar projeto
-                    <span aria-hidden="true">↗</span>
-                  </a>
+                  {project.url && (
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-border bg-white/[0.02] px-5 py-2.5 text-sm font-semibold text-foreground transition hover:border-accent hover:bg-accent/[0.06] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+                    >
+                      Visitar projeto
+                      <span aria-hidden="true">↗</span>
+                    </a>
+                  )}
                 </div>
               </article>
             );

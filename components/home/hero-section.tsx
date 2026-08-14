@@ -21,10 +21,7 @@ export function HeroSection() {
         </p>
 
         <h1 className="max-w-4xl text-balance text-5xl font-semibold leading-[1.03] tracking-[-0.055em] text-foreground sm:text-6xl lg:text-7xl">
-          Level up{" "}
-          <span className="text-accent">
-            your business.
-          </span>
+          Level up <span className="text-accent">your business.</span>
         </h1>
 
         <p className="mt-5 max-w-2xl text-2xl font-semibold tracking-[-0.03em] text-foreground sm:text-3xl">
@@ -32,9 +29,9 @@ export function HeroSection() {
         </p>
 
         <p className="mt-7 max-w-2xl text-lg leading-8 text-muted">
-          A LIPEXP Studio, por Fellipe Leite, cria sites modernos,
-          responsivos e funcionais para empresas, profissionais e projetos
-          que querem fortalecer sua presença digital.
+          A LIPEXP Studio, por Fellipe Leite, desenvolve sites, aplicações e
+          experiências digitais modernas, responsivas e funcionais para
+          empresas, profissionais e projetos.
         </p>
 
         <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -74,24 +71,24 @@ export function HeroSection() {
           </a>
 
           <a
-  className="social-link"
-  href="https://www.linkedin.com/in/fellipe-leite-4412a3377/"
-  target="_blank"
-  rel="noreferrer"
->
-  LinkedIn <span aria-hidden="true">↗</span>
-</a>
+            className="social-link"
+            href="https://www.linkedin.com/in/fellipe-leite-4412a3377/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn <span aria-hidden="true">↗</span>
+          </a>
 
-<a
-  className="social-link"
-  href="/curriculo-fellipe-leite.pdf"
-  target="_blank"
-  rel="noreferrer"
->
-  Currículo <span aria-hidden="true">↓</span>
-</a>
+          <a
+            className="social-link"
+            href="/curriculo-fellipe-leite.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Currículo <span aria-hidden="true">↓</span>
+          </a>
 
-<span>São Paulo/SP</span>
+          <span>São Paulo/SP</span>
         </div>
       </div>
 
@@ -109,9 +106,7 @@ export function HeroSection() {
               <span className="size-2.5 rounded-full bg-accent" />
             </div>
 
-            <span className="font-mono text-xs text-muted">
-              @lipexpstudio
-            </span>
+            <span className="font-mono text-xs text-muted">@lipexpstudio</span>
           </div>
 
           <div className="p-6 sm:p-8">
@@ -130,20 +125,14 @@ export function HeroSection() {
                 <span className="text-accent">const</span>{" "}
                 <span className="text-foreground">studio</span>{" "}
                 <span className="text-muted">=</span>{" "}
-                <span className="text-code">
-                  &quot;LIPEXP Studio&quot;
-                </span>
-                ;
+                <span className="text-code">&quot;LIPEXP Studio&quot;</span>;
               </p>
 
               <p>
                 <span className="text-accent">const</span>{" "}
                 <span className="text-foreground">developer</span>{" "}
                 <span className="text-muted">=</span>{" "}
-                <span className="text-code">
-                  &quot;Fellipe Leite&quot;
-                </span>
-                ;
+                <span className="text-code">&quot;Fellipe Leite&quot;</span>;
               </p>
 
               <p>
@@ -159,20 +148,14 @@ export function HeroSection() {
 
             <div className="mt-10 grid grid-cols-2 gap-3">
               <div className="rounded-lg border border-border bg-background/60 p-5">
-                <strong className="block text-3xl tracking-tight">
-                  03
-                </strong>
-
+                <strong className="block text-3xl tracking-tight">04</strong>
                 <span className="mt-1 block text-sm text-muted">
                   Projetos publicados
                 </span>
               </div>
 
               <div className="rounded-lg border border-border bg-background/60 p-5">
-                <strong className="block text-3xl tracking-tight">
-                  15+
-                </strong>
-
+                <strong className="block text-3xl tracking-tight">20+</strong>
                 <span className="mt-1 block text-sm text-muted">
                   Tecnologias e habilidades
                 </span>

@@ -14,6 +14,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${siteUrl}/projetos/sagatrack`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${siteUrl}/projetos/kill-lipe`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${siteUrl}/projetos/guiart-games`,
       lastModified,
       changeFrequency: "monthly",
@@ -21,12 +33,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${siteUrl}/projetos/celeste-f7`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${siteUrl}/projetos/kill-lipe`,
       lastModified,
       changeFrequency: "monthly",
       priority: 0.8,

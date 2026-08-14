@@ -17,12 +17,7 @@ const skillGroups = [
     number: "02",
     title: "Back-end & dados",
     description: "Persistência de dados, serviços e integrações.",
-    skills: [
-      "Prisma",
-      "PostgreSQL",
-      "Supabase",
-      "Integração com APIs",
-    ],
+    skills: ["Prisma", "PostgreSQL", "Supabase", "Integração com APIs"],
   },
   {
     number: "03",
@@ -32,6 +27,20 @@ const skillGroups = [
   },
   {
     number: "04",
+    title: "Mobile",
+    description:
+      "Desenvolvimento, persistência e distribuição de aplicações mobile.",
+    skills: [
+      "React Native",
+      "Expo",
+      "Expo Router",
+      "AsyncStorage",
+      "EAS",
+      "Google Play",
+    ],
+  },
+  {
+    number: "05",
     title: "Interface",
     description: "Experiências adaptadas para diferentes dispositivos.",
     skills: ["Design responsivo"],
@@ -40,23 +49,19 @@ const skillGroups = [
 
 export function SkillsSection() {
   return (
-    <section
-      id="habilidades"
-      className="section-spacing border-t border-border"
-    >
+    <section id="habilidades" className="section-spacing border-t border-border">
       <div className="section-container">
         <div className="section-heading">
           <div>
             <p className="section-eyebrow">Stack & tecnologia</p>
-
             <h2 className="section-title">
               Tecnologias aplicadas em projetos reais.
             </h2>
           </div>
 
           <p className="section-description">
-            Ferramentas e conhecimentos utilizados do desenvolvimento da
-            interface à integração de dados, versionamento e publicação.
+            Ferramentas e conhecimentos utilizados da interface web e mobile
+            à integração de dados, versionamento, builds e publicação.
           </p>
         </div>
 
@@ -71,10 +76,7 @@ export function SkillsSection() {
                   <span className="font-mono text-xs text-accent">
                     {group.number}
                   </span>
-
-                  <h3 className="mt-3 text-xl font-semibold">
-                    {group.title}
-                  </h3>
+                  <h3 className="mt-3 text-xl font-semibold">{group.title}</h3>
                 </div>
 
                 <span
